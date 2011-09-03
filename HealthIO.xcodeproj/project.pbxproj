@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HealthIOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HealthIOAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		9904051913F0AFA0009C365A /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 9904051713F0AFA0009C365A /* Question.m */; };
+		9904051A13F0AFA0009C365A /* Question.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9904051813F0AFA0009C365A /* Question.xib */; };
+		9904058C13F1A98E009C365A /* healthio4.db in Resources */ = {isa = PBXBuildFile; fileRef = 9904058B13F1A98E009C365A /* healthio4.db */; };
+		9904059013F1A9D6009C365A /* Repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9904058E13F1A9D6009C365A /* Repeat.m */; };
+		9904059113F1A9D6009C365A /* Repeat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9904058F13F1A9D6009C365A /* Repeat.xib */; };
+		9904066713F1C071009C365A /* healthio5.db in Resources */ = {isa = PBXBuildFile; fileRef = 9904066613F1C071009C365A /* healthio5.db */; };
+		990406E413F1D57B009C365A /* healthio6.db in Resources */ = {isa = PBXBuildFile; fileRef = 990406E313F1D57B009C365A /* healthio6.db */; };
+		990406F813F1D664009C365A /* healthio7.db in Resources */ = {isa = PBXBuildFile; fileRef = 990406F713F1D664009C365A /* healthio7.db */; };
+		990CA1E514017ABE0023A238 /* DailySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1E314017ABE0023A238 /* DailySchedule.m */; };
+		990CA1E614017ABE0023A238 /* DailySchedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990CA1E414017ABE0023A238 /* DailySchedule.xib */; };
+		990CA1EA14017ACC0023A238 /* OnceSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1E814017ACC0023A238 /* OnceSchedule.m */; };
+		990CA1EB14017ACC0023A238 /* OnceSchedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990CA1E914017ACC0023A238 /* OnceSchedule.xib */; };
+		990CA1EF14017AEA0023A238 /* MonthlySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1ED14017AE90023A238 /* MonthlySchedule.m */; };
+		990CA1F014017AEA0023A238 /* MonthlySchedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990CA1EE14017AEA0023A238 /* MonthlySchedule.xib */; };
+		990CA1F414017B060023A238 /* YearlySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1F214017B060023A238 /* YearlySchedule.m */; };
+		990CA1F514017B060023A238 /* YearlySchedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990CA1F314017B060023A238 /* YearlySchedule.xib */; };
+		990CA1F914017C270023A238 /* WeeklySchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1F714017C240023A238 /* WeeklySchedule.m */; };
+		990CA1FA14017C270023A238 /* WeeklySchedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = 990CA1F814017C250023A238 /* WeeklySchedule.xib */; };
+		990CA1FD140197A10023A238 /* RepeatObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 990CA1FC140197A10023A238 /* RepeatObject.m */; };
+		991E084F13E00B8E00611C5D /* TreatmentsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E084D13E00B8E00611C5D /* TreatmentsView.m */; };
+		991E085013E00B8E00611C5D /* TreatmentsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E084E13E00B8E00611C5D /* TreatmentsView.xib */; };
+		991E085413E00B9E00611C5D /* ProvidersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E085213E00B9E00611C5D /* ProvidersView.m */; };
+		991E085513E00B9E00611C5D /* ProvidersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E085313E00B9E00611C5D /* ProvidersView.xib */; };
+		991E085913E00BA500611C5D /* AnalysisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E085713E00BA500611C5D /* AnalysisView.m */; };
+		991E085A13E00BA500611C5D /* AnalysisView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E085813E00BA500611C5D /* AnalysisView.xib */; };
+		991E087F13E0103700611C5D /* IndicationsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E087D13E0103700611C5D /* IndicationsTableView.m */; };
+		991E088013E0103700611C5D /* IndicationsTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E087E13E0103700611C5D /* IndicationsTableView.xib */; };
+		991E08A613E01AEB00611C5D /* IndicationsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E08A513E01AEB00611C5D /* IndicationsObject.m */; };
+		991E090F13E022BF00611C5D /* IndicationsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E090E13E022BF00611C5D /* IndicationsTableCell.m */; };
+		991E092813E023F700611C5D /* IndicationsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E092713E023F700611C5D /* IndicationsTableCell.xib */; };
+		991E0A7B13E0472100611C5D /* IndicationsEditTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E0A7913E0472100611C5D /* IndicationsEditTableView.m */; };
+		991E0A7C13E0472100611C5D /* IndicationsEditTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E0A7A13E0472100611C5D /* IndicationsEditTableView.xib */; };
+		991E0C8213E0637700611C5D /* TreatmentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E0C8113E0637700611C5D /* TreatmentObject.m */; };
+		991E0CC913E0907300611C5D /* ProfileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E0CC813E0907300611C5D /* ProfileObject.m */; };
+		991E0CD613E09CE000611C5D /* ProfileEditTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E0CD413E09CE000611C5D /* ProfileEditTableView.m */; };
+		991E0CD713E09CE000611C5D /* ProfileEditTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991E0CD513E09CE000611C5D /* ProfileEditTableView.xib */; };
+		9922DF431403885900A5D77B /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922DF411403885900A5D77B /* LoginView.m */; };
+		9922DF441403885900A5D77B /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9922DF421403885900A5D77B /* LoginView.xib */; };
+		9922DF471403890000A5D77B /* Health.IO-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9922DF461403890000A5D77B /* Health.IO-Logo.png */; };
+		9922DF4A14038AA500A5D77B /* bt_existingmember.png in Resources */ = {isa = PBXBuildFile; fileRef = 9922DF4814038AA500A5D77B /* bt_existingmember.png */; };
+		9922DF4B14038AA500A5D77B /* bt_newmember.png in Resources */ = {isa = PBXBuildFile; fileRef = 9922DF4914038AA500A5D77B /* bt_newmember.png */; };
+		992EE30013EC640B008F219C /* ProviderEditTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE2FE13EC640B008F219C /* ProviderEditTable.m */; };
+		992EE30113EC640B008F219C /* ProviderEditTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE2FF13EC640B008F219C /* ProviderEditTable.xib */; };
+		992EE35213EC7E38008F219C /* NameSpecialty.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE35013EC7E38008F219C /* NameSpecialty.m */; };
+		992EE35313EC7E38008F219C /* NameSpecialty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE35113EC7E38008F219C /* NameSpecialty.xib */; };
+		992EE35713EC7E5E008F219C /* CityAffiliation.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE35513EC7E5E008F219C /* CityAffiliation.m */; };
+		992EE35813EC7E5E008F219C /* CityAffiliation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE35613EC7E5E008F219C /* CityAffiliation.xib */; };
+		992EE35C13EC7E6D008F219C /* PhoneFaxEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE35A13EC7E6D008F219C /* PhoneFaxEmail.m */; };
+		992EE35D13EC7E6D008F219C /* PhoneFaxEmail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE35B13EC7E6D008F219C /* PhoneFaxEmail.xib */; };
+		992EE36113EC7E77008F219C /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE35F13EC7E77008F219C /* Rating.m */; };
+		992EE36213EC7E77008F219C /* Rating.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE36013EC7E77008F219C /* Rating.xib */; };
+		992EE42D13EC87D7008F219C /* Severity.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE42B13EC87D7008F219C /* Severity.m */; };
+		992EE42E13EC87D7008F219C /* Severity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992EE42C13EC87D7008F219C /* Severity.xib */; };
+		992EE58313EC9F64008F219C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 992EE58213EC9F64008F219C /* libsqlite3.0.dylib */; };
+		992EE5A313ECA351008F219C /* healthio.db in Resources */ = {isa = PBXBuildFile; fileRef = 992EE5A213ECA351008F219C /* healthio.db */; };
+		992EE70413EF08D0008F219C /* Autocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 992EE70313EF08D0008F219C /* Autocomplete.m */; };
+		993B627713F31E9300955659 /* healthio8.db in Resources */ = {isa = PBXBuildFile; fileRef = 993B627613F31E9300955659 /* healthio8.db */; };
+		997BDE4D14098A00005625D2 /* PasswordRetrieval.m in Sources */ = {isa = PBXBuildFile; fileRef = 997BDE4B140989FD005625D2 /* PasswordRetrieval.m */; };
+		997BDE4E14098A00005625D2 /* PasswordRetrieval.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997BDE4C140989FE005625D2 /* PasswordRetrieval.xib */; };
+		997BDE5014098C1F005625D2 /* bt_resetpass.png in Resources */ = {isa = PBXBuildFile; fileRef = 997BDE4F14098C1F005625D2 /* bt_resetpass.png */; };
+		999647D913E7F412000118B8 /* NameDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 999647D713E7F412000118B8 /* NameDescription.m */; };
+		999647DA13E7F412000118B8 /* NameDescription.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999647D813E7F412000118B8 /* NameDescription.xib */; };
+		9996490213E809D6000118B8 /* StartEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9996490013E809D6000118B8 /* StartEnd.m */; };
+		9996490313E809D6000118B8 /* StartEnd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9996490113E809D6000118B8 /* StartEnd.xib */; };
+		99964A6613E834F3000118B8 /* TreatmentEditTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 99964A6413E834F3000118B8 /* TreatmentEditTable.m */; };
+		99964A6713E834F3000118B8 /* TreatmentEditTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99964A6513E834F3000118B8 /* TreatmentEditTable.xib */; };
+		99964ADA13E83BBA000118B8 /* TypeStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 99964AD813E83BBA000118B8 /* TypeStrength.m */; };
+		99964ADB13E83BBA000118B8 /* TypeStrength.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99964AD913E83BBA000118B8 /* TypeStrength.xib */; };
+		99964C8513E85958000118B8 /* MedicalSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 99964C8313E85958000118B8 /* MedicalSystem.m */; };
+		99964C8613E85958000118B8 /* MedicalSystem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99964C8413E85958000118B8 /* MedicalSystem.xib */; };
+		99AB66D613F07760004A5E92 /* healthio2.db in Resources */ = {isa = PBXBuildFile; fileRef = 99AB66D513F07760004A5E92 /* healthio2.db */; };
+		99AB675513F08493004A5E92 /* healthio3.db in Resources */ = {isa = PBXBuildFile; fileRef = 99AB675413F08493004A5E92 /* healthio3.db */; };
+		99AB67D213F08E87004A5E92 /* PhoneEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AB67D013F08E87004A5E92 /* PhoneEmail.m */; };
+		99AB67D313F08E87004A5E92 /* PhoneEmail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99AB67D113F08E87004A5E92 /* PhoneEmail.xib */; };
+		99AB67EB13F08EC8004A5E92 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AB67E913F08EC8004A5E92 /* Alerts.m */; };
+		99AB67EC13F08EC8004A5E92 /* Alerts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99AB67EA13F08EC8004A5E92 /* Alerts.xib */; };
+		99AB67F713F0996F004A5E92 /* TrendChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AB67F513F0996F004A5E92 /* TrendChart.m */; };
+		99AB67F813F0996F004A5E92 /* TrendChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99AB67F613F0996F004A5E92 /* TrendChart.xib */; };
+		99AB67FC13F0997D004A5E92 /* ComplianceChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AB67FA13F0997D004A5E92 /* ComplianceChart.m */; };
+		99AB67FD13F0997D004A5E92 /* ComplianceChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99AB67FB13F0997D004A5E92 /* ComplianceChart.xib */; };
+		99AB686513F0A7A0004A5E92 /* QuestionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AB686413F0A7A0004A5E92 /* QuestionObject.m */; };
+		99BB525B1404515B002E540D /* AlertsNotif.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BB525914045156002E540D /* AlertsNotif.m */; };
+		99BB525C1404515B002E540D /* AlertsNotif.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99BB525A14045158002E540D /* AlertsNotif.xib */; };
+		99C2B0521406D4FB00A64D16 /* RegistrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B0501406D4FA00A64D16 /* RegistrationView.m */; };
+		99C2B0531406D4FB00A64D16 /* RegistrationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B0511406D4FB00A64D16 /* RegistrationView.xib */; };
+		99C2B05C1407082200A64D16 /* Birth.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B05A1407081A00A64D16 /* Birth.m */; };
+		99C2B05D1407082200A64D16 /* Birth.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B05B1407081F00A64D16 /* Birth.xib */; };
+		99C2B06114070B4E00A64D16 /* Gender.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B05F14070B4200A64D16 /* Gender.m */; };
+		99C2B06214070B4E00A64D16 /* Gender.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B06014070B4900A64D16 /* Gender.xib */; };
+		99C2B06614070B7100A64D16 /* Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B06414070B6600A64D16 /* Height.m */; };
+		99C2B06714070B7100A64D16 /* Height.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B06514070B6A00A64D16 /* Height.xib */; };
+		99C2B06B14070B9700A64D16 /* Weight.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B06914070B8B00A64D16 /* Weight.m */; };
+		99C2B06C14070B9700A64D16 /* Weight.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B06A14070B8F00A64D16 /* Weight.xib */; };
+		99C2B07014070BBC00A64D16 /* Alcohol.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B06E14070BAD00A64D16 /* Alcohol.m */; };
+		99C2B07114070BBC00A64D16 /* Alcohol.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B06F14070BB200A64D16 /* Alcohol.xib */; };
+		99C2B07514070BEE00A64D16 /* Tobacco.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B07314070BDB00A64D16 /* Tobacco.m */; };
+		99C2B07614070BEE00A64D16 /* Tobacco.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B07414070BE200A64D16 /* Tobacco.xib */; };
+		99E0EF7A1402F65B006147B8 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF711402F65B006147B8 /* NSObject+SBJSON.m */; };
+		99E0EF7B1402F65B006147B8 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF731402F65B006147B8 /* NSString+SBJSON.m */; };
+		99E0EF7C1402F65B006147B8 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF751402F65B006147B8 /* SBJsonBase.m */; };
+		99E0EF7D1402F65B006147B8 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF771402F65B006147B8 /* SBJsonParser.m */; };
+		99E0EF7E1402F65B006147B8 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF791402F65B006147B8 /* SBJsonWriter.m */; };
+		99E0EF861402FB4A006147B8 /* ClearDBAppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF851402FB4A006147B8 /* ClearDBAppClient.m */; };
+		99E6A76613E8629100718176 /* ProviderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E6A76513E8629100718176 /* ProviderObject.m */; };
+		99E6A7F813E86AB300718176 /* ProvidersTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E6A7F713E86AB300718176 /* ProvidersTableCell.m */; };
+		99E6A7FA13E86ACA00718176 /* ProvidersTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99E6A7F913E86ACA00718176 /* ProvidersTableCell.xib */; };
+		99E6AAA713EACC1500718176 /* Analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AA9F13EACC1500718176 /* Analysis.png */; };
+		99E6AAA813EACC1500718176 /* Analysis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA013EACC1500718176 /* Analysis@2x.png */; };
+		99E6AAA913EACC1500718176 /* Medical_Indication.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA113EACC1500718176 /* Medical_Indication.png */; };
+		99E6AAAA13EACC1500718176 /* Medical_Indication@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA213EACC1500718176 /* Medical_Indication@2x.png */; };
+		99E6AAAB13EACC1500718176 /* Medical_Treatment.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA313EACC1500718176 /* Medical_Treatment.png */; };
+		99E6AAAC13EACC1500718176 /* Medical_Treatment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA413EACC1500718176 /* Medical_Treatment@2x.png */; };
+		99E6AAAD13EACC1500718176 /* Provider.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA513EACC1500718176 /* Provider.png */; };
+		99E6AAAE13EACC1500718176 /* Provider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6AAA613EACC1500718176 /* Provider@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HealthIOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthIOAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HealthIOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthIOAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HealthIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* HealthIO_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthIO_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HealthIO-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HealthIO-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9904051613F0AFA0009C365A /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		9904051713F0AFA0009C365A /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		9904051813F0AFA0009C365A /* Question.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Question.xib; sourceTree = "<group>"; };
+		9904058B13F1A98E009C365A /* healthio4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio4.db; sourceTree = "<group>"; };
+		9904058D13F1A9D6009C365A /* Repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeat.h; sourceTree = "<group>"; };
+		9904058E13F1A9D6009C365A /* Repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeat.m; sourceTree = "<group>"; };
+		9904058F13F1A9D6009C365A /* Repeat.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Repeat.xib; path = Classes/Repeat.xib; sourceTree = "<group>"; };
+		9904066613F1C071009C365A /* healthio5.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio5.db; sourceTree = "<group>"; };
+		990406E313F1D57B009C365A /* healthio6.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio6.db; sourceTree = "<group>"; };
+		990406F713F1D664009C365A /* healthio7.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio7.db; sourceTree = "<group>"; };
+		990CA1E214017ABE0023A238 /* DailySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailySchedule.h; sourceTree = "<group>"; };
+		990CA1E314017ABE0023A238 /* DailySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailySchedule.m; sourceTree = "<group>"; };
+		990CA1E414017ABE0023A238 /* DailySchedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DailySchedule.xib; sourceTree = "<group>"; };
+		990CA1E714017ACC0023A238 /* OnceSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceSchedule.h; sourceTree = "<group>"; };
+		990CA1E814017ACC0023A238 /* OnceSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceSchedule.m; sourceTree = "<group>"; };
+		990CA1E914017ACC0023A238 /* OnceSchedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnceSchedule.xib; sourceTree = "<group>"; };
+		990CA1EC14017AE90023A238 /* MonthlySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlySchedule.h; sourceTree = "<group>"; };
+		990CA1ED14017AE90023A238 /* MonthlySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlySchedule.m; sourceTree = "<group>"; };
+		990CA1EE14017AEA0023A238 /* MonthlySchedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonthlySchedule.xib; sourceTree = "<group>"; };
+		990CA1F114017B050023A238 /* YearlySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearlySchedule.h; sourceTree = "<group>"; };
+		990CA1F214017B060023A238 /* YearlySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearlySchedule.m; sourceTree = "<group>"; };
+		990CA1F314017B060023A238 /* YearlySchedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YearlySchedule.xib; sourceTree = "<group>"; };
+		990CA1F614017C220023A238 /* WeeklySchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklySchedule.h; sourceTree = "<group>"; };
+		990CA1F714017C240023A238 /* WeeklySchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklySchedule.m; sourceTree = "<group>"; };
+		990CA1F814017C250023A238 /* WeeklySchedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeeklySchedule.xib; sourceTree = "<group>"; };
+		990CA1FB140197A10023A238 /* RepeatObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatObject.h; sourceTree = "<group>"; };
+		990CA1FC140197A10023A238 /* RepeatObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatObject.m; sourceTree = "<group>"; };
+		991E084C13E00B8E00611C5D /* TreatmentsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentsView.h; sourceTree = "<group>"; };
+		991E084D13E00B8E00611C5D /* TreatmentsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentsView.m; sourceTree = "<group>"; };
+		991E084E13E00B8E00611C5D /* TreatmentsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TreatmentsView.xib; path = Classes/TreatmentsView.xib; sourceTree = "<group>"; };
+		991E085113E00B9E00611C5D /* ProvidersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvidersView.h; sourceTree = "<group>"; };
+		991E085213E00B9E00611C5D /* ProvidersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvidersView.m; sourceTree = "<group>"; };
+		991E085313E00B9E00611C5D /* ProvidersView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProvidersView.xib; path = Classes/ProvidersView.xib; sourceTree = "<group>"; };
+		991E085613E00BA500611C5D /* AnalysisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisView.h; sourceTree = "<group>"; };
+		991E085713E00BA500611C5D /* AnalysisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisView.m; sourceTree = "<group>"; };
+		991E085813E00BA500611C5D /* AnalysisView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AnalysisView.xib; path = Classes/AnalysisView.xib; sourceTree = "<group>"; };
+		991E087C13E0103700611C5D /* IndicationsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicationsTableView.h; sourceTree = "<group>"; };
+		991E087D13E0103700611C5D /* IndicationsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicationsTableView.m; sourceTree = "<group>"; };
+		991E087E13E0103700611C5D /* IndicationsTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IndicationsTableView.xib; path = Classes/IndicationsTableView.xib; sourceTree = "<group>"; };
+		991E08A413E01AEB00611C5D /* IndicationsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicationsObject.h; sourceTree = "<group>"; };
+		991E08A513E01AEB00611C5D /* IndicationsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicationsObject.m; sourceTree = "<group>"; };
+		991E090D13E022BF00611C5D /* IndicationsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicationsTableCell.h; sourceTree = "<group>"; };
+		991E090E13E022BF00611C5D /* IndicationsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicationsTableCell.m; sourceTree = "<group>"; };
+		991E092713E023F700611C5D /* IndicationsTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IndicationsTableCell.xib; sourceTree = "<group>"; };
+		991E0A7813E0472100611C5D /* IndicationsEditTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicationsEditTableView.h; sourceTree = "<group>"; };
+		991E0A7913E0472100611C5D /* IndicationsEditTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicationsEditTableView.m; sourceTree = "<group>"; };
+		991E0A7A13E0472100611C5D /* IndicationsEditTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IndicationsEditTableView.xib; path = Classes/IndicationsEditTableView.xib; sourceTree = "<group>"; };
+		991E0C8013E0637700611C5D /* TreatmentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentObject.h; sourceTree = "<group>"; };
+		991E0C8113E0637700611C5D /* TreatmentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentObject.m; sourceTree = "<group>"; };
+		991E0CC713E0907300611C5D /* ProfileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileObject.h; sourceTree = "<group>"; };
+		991E0CC813E0907300611C5D /* ProfileObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileObject.m; sourceTree = "<group>"; };
+		991E0CD313E09CE000611C5D /* ProfileEditTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEditTableView.h; sourceTree = "<group>"; };
+		991E0CD413E09CE000611C5D /* ProfileEditTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEditTableView.m; sourceTree = "<group>"; };
+		991E0CD513E09CE000611C5D /* ProfileEditTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProfileEditTableView.xib; path = Classes/ProfileEditTableView.xib; sourceTree = "<group>"; };
+		9922DF401403885900A5D77B /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		9922DF411403885900A5D77B /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		9922DF421403885900A5D77B /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		9922DF461403890000A5D77B /* Health.IO-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Health.IO-Logo.png"; sourceTree = "<group>"; };
+		9922DF4814038AA500A5D77B /* bt_existingmember.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_existingmember.png; sourceTree = "<group>"; };
+		9922DF4914038AA500A5D77B /* bt_newmember.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_newmember.png; sourceTree = "<group>"; };
+		992EE2FD13EC640B008F219C /* ProviderEditTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderEditTable.h; sourceTree = "<group>"; };
+		992EE2FE13EC640B008F219C /* ProviderEditTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderEditTable.m; sourceTree = "<group>"; };
+		992EE2FF13EC640B008F219C /* ProviderEditTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProviderEditTable.xib; path = Classes/ProviderEditTable.xib; sourceTree = "<group>"; };
+		992EE34F13EC7E38008F219C /* NameSpecialty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameSpecialty.h; sourceTree = "<group>"; };
+		992EE35013EC7E38008F219C /* NameSpecialty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameSpecialty.m; sourceTree = "<group>"; };
+		992EE35113EC7E38008F219C /* NameSpecialty.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NameSpecialty.xib; path = Classes/NameSpecialty.xib; sourceTree = "<group>"; };
+		992EE35413EC7E5E008F219C /* CityAffiliation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityAffiliation.h; sourceTree = "<group>"; };
+		992EE35513EC7E5E008F219C /* CityAffiliation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityAffiliation.m; sourceTree = "<group>"; };
+		992EE35613EC7E5E008F219C /* CityAffiliation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CityAffiliation.xib; path = Classes/CityAffiliation.xib; sourceTree = "<group>"; };
+		992EE35913EC7E6D008F219C /* PhoneFaxEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneFaxEmail.h; sourceTree = "<group>"; };
+		992EE35A13EC7E6D008F219C /* PhoneFaxEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneFaxEmail.m; sourceTree = "<group>"; };
+		992EE35B13EC7E6D008F219C /* PhoneFaxEmail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhoneFaxEmail.xib; path = Classes/PhoneFaxEmail.xib; sourceTree = "<group>"; };
+		992EE35E13EC7E77008F219C /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		992EE35F13EC7E77008F219C /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		992EE36013EC7E77008F219C /* Rating.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Rating.xib; path = Classes/Rating.xib; sourceTree = "<group>"; };
+		992EE42A13EC87D7008F219C /* Severity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Severity.h; sourceTree = "<group>"; };
+		992EE42B13EC87D7008F219C /* Severity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Severity.m; sourceTree = "<group>"; };
+		992EE42C13EC87D7008F219C /* Severity.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Severity.xib; sourceTree = "<group>"; };
+		992EE58213EC9F64008F219C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		992EE5A213ECA351008F219C /* healthio.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio.db; sourceTree = "<group>"; };
+		992EE70213EF08D0008F219C /* Autocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Autocomplete.h; sourceTree = "<group>"; };
+		992EE70313EF08D0008F219C /* Autocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Autocomplete.m; sourceTree = "<group>"; };
+		993B627613F31E9300955659 /* healthio8.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio8.db; sourceTree = "<group>"; };
+		993B631713F331A800955659 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		997BDE4A140989FD005625D2 /* PasswordRetrieval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordRetrieval.h; sourceTree = "<group>"; };
+		997BDE4B140989FD005625D2 /* PasswordRetrieval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordRetrieval.m; sourceTree = "<group>"; };
+		997BDE4C140989FE005625D2 /* PasswordRetrieval.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordRetrieval.xib; sourceTree = "<group>"; };
+		997BDE4F14098C1F005625D2 /* bt_resetpass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bt_resetpass.png; path = ../../Desktop/healthio/Archive/bt_resetpass.png; sourceTree = "<group>"; };
+		999647D613E7F412000118B8 /* NameDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameDescription.h; sourceTree = "<group>"; };
+		999647D713E7F412000118B8 /* NameDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameDescription.m; sourceTree = "<group>"; };
+		999647D813E7F412000118B8 /* NameDescription.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NameDescription.xib; path = Classes/NameDescription.xib; sourceTree = "<group>"; };
+		999648FF13E809D6000118B8 /* StartEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartEnd.h; sourceTree = "<group>"; };
+		9996490013E809D6000118B8 /* StartEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartEnd.m; sourceTree = "<group>"; };
+		9996490113E809D6000118B8 /* StartEnd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StartEnd.xib; path = Classes/StartEnd.xib; sourceTree = "<group>"; };
+		99964A6313E834F3000118B8 /* TreatmentEditTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentEditTable.h; sourceTree = "<group>"; };
+		99964A6413E834F3000118B8 /* TreatmentEditTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentEditTable.m; sourceTree = "<group>"; };
+		99964A6513E834F3000118B8 /* TreatmentEditTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TreatmentEditTable.xib; path = Classes/TreatmentEditTable.xib; sourceTree = "<group>"; };
+		99964AD713E83BBA000118B8 /* TypeStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeStrength.h; sourceTree = "<group>"; };
+		99964AD813E83BBA000118B8 /* TypeStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeStrength.m; sourceTree = "<group>"; };
+		99964AD913E83BBA000118B8 /* TypeStrength.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TypeStrength.xib; path = Classes/TypeStrength.xib; sourceTree = "<group>"; };
+		99964C8213E85958000118B8 /* MedicalSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalSystem.h; sourceTree = "<group>"; };
+		99964C8313E85958000118B8 /* MedicalSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalSystem.m; sourceTree = "<group>"; };
+		99964C8413E85958000118B8 /* MedicalSystem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MedicalSystem.xib; path = Classes/MedicalSystem.xib; sourceTree = "<group>"; };
+		99AB66D513F07760004A5E92 /* healthio2.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = healthio2.db; path = DB/healthio2.db; sourceTree = "<group>"; };
+		99AB675413F08493004A5E92 /* healthio3.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = healthio3.db; sourceTree = "<group>"; };
+		99AB67CF13F08E87004A5E92 /* PhoneEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneEmail.h; sourceTree = "<group>"; };
+		99AB67D013F08E87004A5E92 /* PhoneEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneEmail.m; sourceTree = "<group>"; };
+		99AB67D113F08E87004A5E92 /* PhoneEmail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhoneEmail.xib; sourceTree = "<group>"; };
+		99AB67E813F08EC8004A5E92 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		99AB67E913F08EC8004A5E92 /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
+		99AB67EA13F08EC8004A5E92 /* Alerts.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Alerts.xib; sourceTree = "<group>"; };
+		99AB67F413F0996F004A5E92 /* TrendChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendChart.h; sourceTree = "<group>"; };
+		99AB67F513F0996F004A5E92 /* TrendChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendChart.m; sourceTree = "<group>"; };
+		99AB67F613F0996F004A5E92 /* TrendChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendChart.xib; sourceTree = "<group>"; };
+		99AB67F913F0997D004A5E92 /* ComplianceChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplianceChart.h; sourceTree = "<group>"; };
+		99AB67FA13F0997D004A5E92 /* ComplianceChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplianceChart.m; sourceTree = "<group>"; };
+		99AB67FB13F0997D004A5E92 /* ComplianceChart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComplianceChart.xib; sourceTree = "<group>"; };
+		99AB686313F0A7A0004A5E92 /* QuestionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionObject.h; sourceTree = "<group>"; };
+		99AB686413F0A7A0004A5E92 /* QuestionObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionObject.m; sourceTree = "<group>"; };
+		99BB525814045155002E540D /* AlertsNotif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsNotif.h; sourceTree = "<group>"; };
+		99BB525914045156002E540D /* AlertsNotif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsNotif.m; sourceTree = "<group>"; };
+		99BB525A14045158002E540D /* AlertsNotif.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertsNotif.xib; sourceTree = "<group>"; };
+		99C2B04F1406D4FA00A64D16 /* RegistrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationView.h; sourceTree = "<group>"; };
+		99C2B0501406D4FA00A64D16 /* RegistrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationView.m; sourceTree = "<group>"; };
+		99C2B0511406D4FB00A64D16 /* RegistrationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationView.xib; sourceTree = "<group>"; };
+		99C2B0591407081800A64D16 /* Birth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Birth.h; sourceTree = "<group>"; };
+		99C2B05A1407081A00A64D16 /* Birth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Birth.m; sourceTree = "<group>"; };
+		99C2B05B1407081F00A64D16 /* Birth.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Birth.xib; sourceTree = "<group>"; };
+		99C2B05E14070B3D00A64D16 /* Gender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		99C2B05F14070B4200A64D16 /* Gender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gender.m; sourceTree = "<group>"; };
+		99C2B06014070B4900A64D16 /* Gender.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Gender.xib; sourceTree = "<group>"; };
+		99C2B06314070B5F00A64D16 /* Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Height.h; sourceTree = "<group>"; };
+		99C2B06414070B6600A64D16 /* Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Height.m; sourceTree = "<group>"; };
+		99C2B06514070B6A00A64D16 /* Height.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Height.xib; sourceTree = "<group>"; };
+		99C2B06814070B8400A64D16 /* Weight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weight.h; sourceTree = "<group>"; };
+		99C2B06914070B8B00A64D16 /* Weight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weight.m; sourceTree = "<group>"; };
+		99C2B06A14070B8F00A64D16 /* Weight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Weight.xib; sourceTree = "<group>"; };
+		99C2B06D14070BA400A64D16 /* Alcohol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alcohol.h; sourceTree = "<group>"; };
+		99C2B06E14070BAD00A64D16 /* Alcohol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alcohol.m; sourceTree = "<group>"; };
+		99C2B06F14070BB200A64D16 /* Alcohol.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alcohol.xib; sourceTree = "<group>"; };
+		99C2B07214070BD400A64D16 /* Tobacco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tobacco.h; sourceTree = "<group>"; };
+		99C2B07314070BDB00A64D16 /* Tobacco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tobacco.m; sourceTree = "<group>"; };
+		99C2B07414070BE200A64D16 /* Tobacco.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tobacco.xib; sourceTree = "<group>"; };
+		99E0EF6F1402F65B006147B8 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		99E0EF701402F65B006147B8 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		99E0EF711402F65B006147B8 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		99E0EF721402F65B006147B8 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		99E0EF731402F65B006147B8 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		99E0EF741402F65B006147B8 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		99E0EF751402F65B006147B8 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		99E0EF761402F65B006147B8 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		99E0EF771402F65B006147B8 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		99E0EF781402F65B006147B8 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		99E0EF791402F65B006147B8 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		99E0EF831402FB4A006147B8 /* ClearDB_ObjC_Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearDB_ObjC_Client_Prefix.pch; sourceTree = "<group>"; };
+		99E0EF841402FB4A006147B8 /* ClearDBAppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearDBAppClient.h; sourceTree = "<group>"; };
+		99E0EF851402FB4A006147B8 /* ClearDBAppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearDBAppClient.m; sourceTree = "<group>"; };
+		99E6A76413E8629100718176 /* ProviderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderObject.h; sourceTree = "<group>"; };
+		99E6A76513E8629100718176 /* ProviderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderObject.m; sourceTree = "<group>"; };
+		99E6A7F613E86AB300718176 /* ProvidersTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvidersTableCell.h; sourceTree = "<group>"; };
+		99E6A7F713E86AB300718176 /* ProvidersTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvidersTableCell.m; sourceTree = "<group>"; };
+		99E6A7F913E86ACA00718176 /* ProvidersTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProvidersTableCell.xib; sourceTree = "<group>"; };
+		99E6AA9F13EACC1500718176 /* Analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Analysis.png; sourceTree = "<group>"; };
+		99E6AAA013EACC1500718176 /* Analysis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Analysis@2x.png"; sourceTree = "<group>"; };
+		99E6AAA113EACC1500718176 /* Medical_Indication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medical_Indication.png; sourceTree = "<group>"; };
+		99E6AAA213EACC1500718176 /* Medical_Indication@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medical_Indication@2x.png"; sourceTree = "<group>"; };
+		99E6AAA313EACC1500718176 /* Medical_Treatment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medical_Treatment.png; sourceTree = "<group>"; };
+		99E6AAA413EACC1500718176 /* Medical_Treatment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medical_Treatment@2x.png"; sourceTree = "<group>"; };
+		99E6AAA513EACC1500718176 /* Provider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Provider.png; sourceTree = "<group>"; };
+		99E6AAA613EACC1500718176 /* Provider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Provider@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				992EE58313EC9F64008F219C /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99E0EF6E1402F646006147B8 /* JSON */,
+				99E0EF621402F5C5006147B8 /* ClearDB */,
+				992EE70013EF08B9008F219C /* Autocomplete */,
+				991E08A313E01AC800611C5D /* Data types */,
+				991E08A213E01AAF00611C5D /* GUI */,
+				1D3623240D0F684500981E51 /* HealthIOAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HealthIOAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HealthIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* HealthIO */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				99964A6513E834F3000118B8 /* TreatmentEditTable.xib */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				993B631713F331A800955659 /* Entitlements.plist */,
+			);
+			name = HealthIO;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99AB66D513F07760004A5E92 /* healthio2.db */,
+				993B627613F31E9300955659 /* healthio8.db */,
+				9904066613F1C071009C365A /* healthio5.db */,
+				990406E313F1D57B009C365A /* healthio6.db */,
+				990406F713F1D664009C365A /* healthio7.db */,
+				99AB675413F08493004A5E92 /* healthio3.db */,
+				9904058B13F1A98E009C365A /* healthio4.db */,
+				28A0AB4B0D9B1048005BE974 /* HealthIO_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				997BDE4F14098C1F005625D2 /* bt_resetpass.png */,
+				9922DF4814038AA500A5D77B /* bt_existingmember.png */,
+				9922DF4914038AA500A5D77B /* bt_newmember.png */,
+				9922DF461403890000A5D77B /* Health.IO-Logo.png */,
+				992EE5A213ECA351008F219C /* healthio.db */,
+				9904058F13F1A9D6009C365A /* Repeat.xib */,
+				992EE35113EC7E38008F219C /* NameSpecialty.xib */,
+				992EE35613EC7E5E008F219C /* CityAffiliation.xib */,
+				992EE35B13EC7E6D008F219C /* PhoneFaxEmail.xib */,
+				992EE36013EC7E77008F219C /* Rating.xib */,
+				99E6AA9C13EACC0600718176 /* tab_icons */,
+				99964C8413E85958000118B8 /* MedicalSystem.xib */,
+				992EE2FF13EC640B008F219C /* ProviderEditTable.xib */,
+				99964AD913E83BBA000118B8 /* TypeStrength.xib */,
+				9996490113E809D6000118B8 /* StartEnd.xib */,
+				999647D813E7F412000118B8 /* NameDescription.xib */,
+				991E0A7A13E0472100611C5D /* IndicationsEditTableView.xib */,
+				991E087E13E0103700611C5D /* IndicationsTableView.xib */,
+				991E084E13E00B8E00611C5D /* TreatmentsView.xib */,
+				991E0CD513E09CE000611C5D /* ProfileEditTableView.xib */,
+				991E085313E00B9E00611C5D /* ProvidersView.xib */,
+				991E085813E00BA500611C5D /* AnalysisView.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* HealthIO-Info.plist */,
+				991E092713E023F700611C5D /* IndicationsTableCell.xib */,
+				99E6A7F913E86ACA00718176 /* ProvidersTableCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				992EE58213EC9F64008F219C /* libsqlite3.0.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9904051513F0AF8E009C365A /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				9904051613F0AFA0009C365A /* Question.h */,
+				9904051713F0AFA0009C365A /* Question.m */,
+				9904051813F0AFA0009C365A /* Question.xib */,
+			);
+			name = Analysis;
+			sourceTree = "<group>";
+		};
+		990CA1E114017A760023A238 /* ScheduleViews */ = {
+			isa = PBXGroup;
+			children = (
+				990CA1E214017ABE0023A238 /* DailySchedule.h */,
+				990CA1E314017ABE0023A238 /* DailySchedule.m */,
+				990CA1E414017ABE0023A238 /* DailySchedule.xib */,
+				990CA1E714017ACC0023A238 /* OnceSchedule.h */,
+				990CA1E814017ACC0023A238 /* OnceSchedule.m */,
+				990CA1E914017ACC0023A238 /* OnceSchedule.xib */,
+				990CA1EC14017AE90023A238 /* MonthlySchedule.h */,
+				990CA1ED14017AE90023A238 /* MonthlySchedule.m */,
+				990CA1EE14017AEA0023A238 /* MonthlySchedule.xib */,
+				990CA1F114017B050023A238 /* YearlySchedule.h */,
+				990CA1F214017B060023A238 /* YearlySchedule.m */,
+				990CA1F314017B060023A238 /* YearlySchedule.xib */,
+				990CA1F614017C220023A238 /* WeeklySchedule.h */,
+				990CA1F714017C240023A238 /* WeeklySchedule.m */,
+				990CA1F814017C250023A238 /* WeeklySchedule.xib */,
+			);
+			name = ScheduleViews;
+			sourceTree = "<group>";
+		};
+		991E08A213E01AAF00611C5D /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				9922DF451403886B00A5D77B /* Login */,
+				990CA1E114017A760023A238 /* ScheduleViews */,
+				99AB67F313F0995F004A5E92 /* Analysis */,
+				99AB67CE13F08E70004A5E92 /* Profile */,
+				991E0A6F13E0389000611C5D /* SummaryTables */,
+				991E0A7113E038A600611C5D /* AddEditViews */,
+				991E0A7013E0389E00611C5D /* CellViews */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		991E08A313E01AC800611C5D /* Data types */ = {
+			isa = PBXGroup;
+			children = (
+				991E08A413E01AEB00611C5D /* IndicationsObject.h */,
+				991E08A513E01AEB00611C5D /* IndicationsObject.m */,
+				991E0C8013E0637700611C5D /* TreatmentObject.h */,
+				991E0C8113E0637700611C5D /* TreatmentObject.m */,
+				991E0CC713E0907300611C5D /* ProfileObject.h */,
+				991E0CC813E0907300611C5D /* ProfileObject.m */,
+				99E6A76413E8629100718176 /* ProviderObject.h */,
+				99E6A76513E8629100718176 /* ProviderObject.m */,
+				99AB686313F0A7A0004A5E92 /* QuestionObject.h */,
+				99AB686413F0A7A0004A5E92 /* QuestionObject.m */,
+				990CA1FB140197A10023A238 /* RepeatObject.h */,
+				990CA1FC140197A10023A238 /* RepeatObject.m */,
+			);
+			name = "Data types";
+			sourceTree = "<group>";
+		};
+		991E0A6F13E0389000611C5D /* SummaryTables */ = {
+			isa = PBXGroup;
+			children = (
+				991E084C13E00B8E00611C5D /* TreatmentsView.h */,
+				991E084D13E00B8E00611C5D /* TreatmentsView.m */,
+				991E085113E00B9E00611C5D /* ProvidersView.h */,
+				991E085213E00B9E00611C5D /* ProvidersView.m */,
+				991E085613E00BA500611C5D /* AnalysisView.h */,
+				991E085713E00BA500611C5D /* AnalysisView.m */,
+				991E087C13E0103700611C5D /* IndicationsTableView.h */,
+				991E087D13E0103700611C5D /* IndicationsTableView.m */,
+			);
+			name = SummaryTables;
+			sourceTree = "<group>";
+		};
+		991E0A7013E0389E00611C5D /* CellViews */ = {
+			isa = PBXGroup;
+			children = (
+				991E090D13E022BF00611C5D /* IndicationsTableCell.h */,
+				991E090E13E022BF00611C5D /* IndicationsTableCell.m */,
+				99E6A7F613E86AB300718176 /* ProvidersTableCell.h */,
+				99E6A7F713E86AB300718176 /* ProvidersTableCell.m */,
+			);
+			name = CellViews;
+			sourceTree = "<group>";
+		};
+		991E0A7113E038A600611C5D /* AddEditViews */ = {
+			isa = PBXGroup;
+			children = (
+				999647D213E7F3AB000118B8 /* AddEditIndividualItems */,
+				992EE2FD13EC640B008F219C /* ProviderEditTable.h */,
+				992EE2FE13EC640B008F219C /* ProviderEditTable.m */,
+				991E0A7813E0472100611C5D /* IndicationsEditTableView.h */,
+				991E0A7913E0472100611C5D /* IndicationsEditTableView.m */,
+				99964A6313E834F3000118B8 /* TreatmentEditTable.h */,
+				99964A6413E834F3000118B8 /* TreatmentEditTable.m */,
+			);
+			name = AddEditViews;
+			sourceTree = "<group>";
+		};
+		9922DF451403886B00A5D77B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9922DF401403885900A5D77B /* LoginView.h */,
+				9922DF411403885900A5D77B /* LoginView.m */,
+				9922DF421403885900A5D77B /* LoginView.xib */,
+				99C2B04F1406D4FA00A64D16 /* RegistrationView.h */,
+				99C2B0501406D4FA00A64D16 /* RegistrationView.m */,
+				99C2B0511406D4FB00A64D16 /* RegistrationView.xib */,
+				997BDE4A140989FD005625D2 /* PasswordRetrieval.h */,
+				997BDE4B140989FD005625D2 /* PasswordRetrieval.m */,
+				997BDE4C140989FE005625D2 /* PasswordRetrieval.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		992EE70013EF08B9008F219C /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				992EE70213EF08D0008F219C /* Autocomplete.h */,
+				992EE70313EF08D0008F219C /* Autocomplete.m */,
+			);
+			name = Autocomplete;
+			sourceTree = "<group>";
+		};
+		999647D213E7F3AB000118B8 /* AddEditIndividualItems */ = {
+			isa = PBXGroup;
+			children = (
+				9904051513F0AF8E009C365A /* Analysis */,
+				999647D513E7F3FD000118B8 /* Provider */,
+				999647D413E7F3F2000118B8 /* Treatment */,
+				999647D313E7F3E7000118B8 /* Indications */,
+			);
+			name = AddEditIndividualItems;
+			sourceTree = "<group>";
+		};
+		999647D313E7F3E7000118B8 /* Indications */ = {
+			isa = PBXGroup;
+			children = (
+				999647D613E7F412000118B8 /* NameDescription.h */,
+				999647D713E7F412000118B8 /* NameDescription.m */,
+				999648FF13E809D6000118B8 /* StartEnd.h */,
+				9996490013E809D6000118B8 /* StartEnd.m */,
+				992EE42A13EC87D7008F219C /* Severity.h */,
+				992EE42B13EC87D7008F219C /* Severity.m */,
+				992EE42C13EC87D7008F219C /* Severity.xib */,
+				9904058D13F1A9D6009C365A /* Repeat.h */,
+				9904058E13F1A9D6009C365A /* Repeat.m */,
+			);
+			name = Indications;
+			sourceTree = "<group>";
+		};
+		999647D413E7F3F2000118B8 /* Treatment */ = {
+			isa = PBXGroup;
+			children = (
+				99964AD713E83BBA000118B8 /* TypeStrength.h */,
+				99964AD813E83BBA000118B8 /* TypeStrength.m */,
+				99964C8213E85958000118B8 /* MedicalSystem.h */,
+				99964C8313E85958000118B8 /* MedicalSystem.m */,
+			);
+			name = Treatment;
+			sourceTree = "<group>";
+		};
+		999647D513E7F3FD000118B8 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				992EE34F13EC7E38008F219C /* NameSpecialty.h */,
+				992EE35013EC7E38008F219C /* NameSpecialty.m */,
+				992EE35413EC7E5E008F219C /* CityAffiliation.h */,
+				992EE35513EC7E5E008F219C /* CityAffiliation.m */,
+				992EE35913EC7E6D008F219C /* PhoneFaxEmail.h */,
+				992EE35A13EC7E6D008F219C /* PhoneFaxEmail.m */,
+				992EE35E13EC7E77008F219C /* Rating.h */,
+				992EE35F13EC7E77008F219C /* Rating.m */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		99AB67CE13F08E70004A5E92 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				991E0CD313E09CE000611C5D /* ProfileEditTableView.h */,
+				991E0CD413E09CE000611C5D /* ProfileEditTableView.m */,
+				99AB67CF13F08E87004A5E92 /* PhoneEmail.h */,
+				99AB67D013F08E87004A5E92 /* PhoneEmail.m */,
+				99AB67D113F08E87004A5E92 /* PhoneEmail.xib */,
+				99AB67E813F08EC8004A5E92 /* Alerts.h */,
+				99AB67E913F08EC8004A5E92 /* Alerts.m */,
+				99AB67EA13F08EC8004A5E92 /* Alerts.xib */,
+				99BB525814045155002E540D /* AlertsNotif.h */,
+				99BB525914045156002E540D /* AlertsNotif.m */,
+				99BB525A14045158002E540D /* AlertsNotif.xib */,
+				99C2B0591407081800A64D16 /* Birth.h */,
+				99C2B05A1407081A00A64D16 /* Birth.m */,
+				99C2B05B1407081F00A64D16 /* Birth.xib */,
+				99C2B05E14070B3D00A64D16 /* Gender.h */,
+				99C2B05F14070B4200A64D16 /* Gender.m */,
+				99C2B06014070B4900A64D16 /* Gender.xib */,
+				99C2B06314070B5F00A64D16 /* Height.h */,
+				99C2B06414070B6600A64D16 /* Height.m */,
+				99C2B06514070B6A00A64D16 /* Height.xib */,
+				99C2B06814070B8400A64D16 /* Weight.h */,
+				99C2B06914070B8B00A64D16 /* Weight.m */,
+				99C2B06A14070B8F00A64D16 /* Weight.xib */,
+				99C2B06D14070BA400A64D16 /* Alcohol.h */,
+				99C2B06E14070BAD00A64D16 /* Alcohol.m */,
+				99C2B06F14070BB200A64D16 /* Alcohol.xib */,
+				99C2B07214070BD400A64D16 /* Tobacco.h */,
+				99C2B07314070BDB00A64D16 /* Tobacco.m */,
+				99C2B07414070BE200A64D16 /* Tobacco.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		99AB67F313F0995F004A5E92 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				99AB67F413F0996F004A5E92 /* TrendChart.h */,
+				99AB67F513F0996F004A5E92 /* TrendChart.m */,
+				99AB67F613F0996F004A5E92 /* TrendChart.xib */,
+				99AB67F913F0997D004A5E92 /* ComplianceChart.h */,
+				99AB67FA13F0997D004A5E92 /* ComplianceChart.m */,
+				99AB67FB13F0997D004A5E92 /* ComplianceChart.xib */,
+			);
+			name = Analysis;
+			sourceTree = "<group>";
+		};
+		99E0EF621402F5C5006147B8 /* ClearDB */ = {
+			isa = PBXGroup;
+			children = (
+				99E0EF831402FB4A006147B8 /* ClearDB_ObjC_Client_Prefix.pch */,
+				99E0EF841402FB4A006147B8 /* ClearDBAppClient.h */,
+				99E0EF851402FB4A006147B8 /* ClearDBAppClient.m */,
+			);
+			name = ClearDB;
+			sourceTree = "<group>";
+		};
+		99E0EF6E1402F646006147B8 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				99E0EF6F1402F65B006147B8 /* JSON.h */,
+				99E0EF701402F65B006147B8 /* NSObject+SBJSON.h */,
+				99E0EF711402F65B006147B8 /* NSObject+SBJSON.m */,
+				99E0EF721402F65B006147B8 /* NSString+SBJSON.h */,
+				99E0EF731402F65B006147B8 /* NSString+SBJSON.m */,
+				99E0EF741402F65B006147B8 /* SBJsonBase.h */,
+				99E0EF751402F65B006147B8 /* SBJsonBase.m */,
+				99E0EF761402F65B006147B8 /* SBJsonParser.h */,
+				99E0EF771402F65B006147B8 /* SBJsonParser.m */,
+				99E0EF781402F65B006147B8 /* SBJsonWriter.h */,
+				99E0EF791402F65B006147B8 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		99E6AA9C13EACC0600718176 /* tab_icons */ = {
+			isa = PBXGroup;
+			children = (
+				99E6AA9F13EACC1500718176 /* Analysis.png */,
+				99E6AAA013EACC1500718176 /* Analysis@2x.png */,
+				99E6AAA113EACC1500718176 /* Medical_Indication.png */,
+				99E6AAA213EACC1500718176 /* Medical_Indication@2x.png */,
+				99E6AAA313EACC1500718176 /* Medical_Treatment.png */,
+				99E6AAA413EACC1500718176 /* Medical_Treatment@2x.png */,
+				99E6AAA513EACC1500718176 /* Provider.png */,
+				99E6AAA613EACC1500718176 /* Provider@2x.png */,
+			);
+			name = tab_icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HealthIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HealthIO" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthIO;
+			productName = HealthIO;
+			productReference = 1D6058910D05DD3D006BFB54 /* HealthIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HealthIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* HealthIO */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HealthIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				991E085013E00B8E00611C5D /* TreatmentsView.xib in Resources */,
+				991E085513E00B9E00611C5D /* ProvidersView.xib in Resources */,
+				991E085A13E00BA500611C5D /* AnalysisView.xib in Resources */,
+				991E088013E0103700611C5D /* IndicationsTableView.xib in Resources */,
+				991E092813E023F700611C5D /* IndicationsTableCell.xib in Resources */,
+				991E0A7C13E0472100611C5D /* IndicationsEditTableView.xib in Resources */,
+				991E0CD713E09CE000611C5D /* ProfileEditTableView.xib in Resources */,
+				999647DA13E7F412000118B8 /* NameDescription.xib in Resources */,
+				9996490313E809D6000118B8 /* StartEnd.xib in Resources */,
+				99964A6713E834F3000118B8 /* TreatmentEditTable.xib in Resources */,
+				99964ADB13E83BBA000118B8 /* TypeStrength.xib in Resources */,
+				99964C8613E85958000118B8 /* MedicalSystem.xib in Resources */,
+				99E6A7FA13E86ACA00718176 /* ProvidersTableCell.xib in Resources */,
+				99E6AAA713EACC1500718176 /* Analysis.png in Resources */,
+				99E6AAA813EACC1500718176 /* Analysis@2x.png in Resources */,
+				99E6AAA913EACC1500718176 /* Medical_Indication.png in Resources */,
+				99E6AAAA13EACC1500718176 /* Medical_Indication@2x.png in Resources */,
+				99E6AAAB13EACC1500718176 /* Medical_Treatment.png in Resources */,
+				99E6AAAC13EACC1500718176 /* Medical_Treatment@2x.png in Resources */,
+				99E6AAAD13EACC1500718176 /* Provider.png in Resources */,
+				99E6AAAE13EACC1500718176 /* Provider@2x.png in Resources */,
+				992EE30113EC640B008F219C /* ProviderEditTable.xib in Resources */,
+				992EE35313EC7E38008F219C /* NameSpecialty.xib in Resources */,
+				992EE35813EC7E5E008F219C /* CityAffiliation.xib in Resources */,
+				992EE35D13EC7E6D008F219C /* PhoneFaxEmail.xib in Resources */,
+				992EE36213EC7E77008F219C /* Rating.xib in Resources */,
+				992EE42E13EC87D7008F219C /* Severity.xib in Resources */,
+				992EE5A313ECA351008F219C /* healthio.db in Resources */,
+				99AB66D613F07760004A5E92 /* healthio2.db in Resources */,
+				99AB675513F08493004A5E92 /* healthio3.db in Resources */,
+				99AB67D313F08E87004A5E92 /* PhoneEmail.xib in Resources */,
+				99AB67EC13F08EC8004A5E92 /* Alerts.xib in Resources */,
+				99AB67F813F0996F004A5E92 /* TrendChart.xib in Resources */,
+				99AB67FD13F0997D004A5E92 /* ComplianceChart.xib in Resources */,
+				9904051A13F0AFA0009C365A /* Question.xib in Resources */,
+				9904058C13F1A98E009C365A /* healthio4.db in Resources */,
+				9904059113F1A9D6009C365A /* Repeat.xib in Resources */,
+				9904066713F1C071009C365A /* healthio5.db in Resources */,
+				990406E413F1D57B009C365A /* healthio6.db in Resources */,
+				990406F813F1D664009C365A /* healthio7.db in Resources */,
+				993B627713F31E9300955659 /* healthio8.db in Resources */,
+				990CA1E614017ABE0023A238 /* DailySchedule.xib in Resources */,
+				990CA1EB14017ACC0023A238 /* OnceSchedule.xib in Resources */,
+				990CA1F014017AEA0023A238 /* MonthlySchedule.xib in Resources */,
+				990CA1F514017B060023A238 /* YearlySchedule.xib in Resources */,
+				990CA1FA14017C270023A238 /* WeeklySchedule.xib in Resources */,
+				9922DF441403885900A5D77B /* LoginView.xib in Resources */,
+				9922DF471403890000A5D77B /* Health.IO-Logo.png in Resources */,
+				9922DF4A14038AA500A5D77B /* bt_existingmember.png in Resources */,
+				9922DF4B14038AA500A5D77B /* bt_newmember.png in Resources */,
+				99BB525C1404515B002E540D /* AlertsNotif.xib in Resources */,
+				99C2B0531406D4FB00A64D16 /* RegistrationView.xib in Resources */,
+				99C2B05D1407082200A64D16 /* Birth.xib in Resources */,
+				99C2B06214070B4E00A64D16 /* Gender.xib in Resources */,
+				99C2B06714070B7100A64D16 /* Height.xib in Resources */,
+				99C2B06C14070B9700A64D16 /* Weight.xib in Resources */,
+				99C2B07114070BBC00A64D16 /* Alcohol.xib in Resources */,
+				99C2B07614070BEE00A64D16 /* Tobacco.xib in Resources */,
+				997BDE4E14098A00005625D2 /* PasswordRetrieval.xib in Resources */,
+				997BDE5014098C1F005625D2 /* bt_resetpass.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HealthIOAppDelegate.m in Sources */,
+				991E084F13E00B8E00611C5D /* TreatmentsView.m in Sources */,
+				991E085413E00B9E00611C5D /* ProvidersView.m in Sources */,
+				991E085913E00BA500611C5D /* AnalysisView.m in Sources */,
+				991E087F13E0103700611C5D /* IndicationsTableView.m in Sources */,
+				991E08A613E01AEB00611C5D /* IndicationsObject.m in Sources */,
+				991E090F13E022BF00611C5D /* IndicationsTableCell.m in Sources */,
+				991E0A7B13E0472100611C5D /* IndicationsEditTableView.m in Sources */,
+				991E0C8213E0637700611C5D /* TreatmentObject.m in Sources */,
+				991E0CC913E0907300611C5D /* ProfileObject.m in Sources */,
+				991E0CD613E09CE000611C5D /* ProfileEditTableView.m in Sources */,
+				999647D913E7F412000118B8 /* NameDescription.m in Sources */,
+				9996490213E809D6000118B8 /* StartEnd.m in Sources */,
+				99964A6613E834F3000118B8 /* TreatmentEditTable.m in Sources */,
+				99964ADA13E83BBA000118B8 /* TypeStrength.m in Sources */,
+				99964C8513E85958000118B8 /* MedicalSystem.m in Sources */,
+				99E6A76613E8629100718176 /* ProviderObject.m in Sources */,
+				99E6A7F813E86AB300718176 /* ProvidersTableCell.m in Sources */,
+				992EE30013EC640B008F219C /* ProviderEditTable.m in Sources */,
+				992EE35213EC7E38008F219C /* NameSpecialty.m in Sources */,
+				992EE35713EC7E5E008F219C /* CityAffiliation.m in Sources */,
+				992EE35C13EC7E6D008F219C /* PhoneFaxEmail.m in Sources */,
+				992EE36113EC7E77008F219C /* Rating.m in Sources */,
+				992EE42D13EC87D7008F219C /* Severity.m in Sources */,
+				992EE70413EF08D0008F219C /* Autocomplete.m in Sources */,
+				99AB67D213F08E87004A5E92 /* PhoneEmail.m in Sources */,
+				99AB67EB13F08EC8004A5E92 /* Alerts.m in Sources */,
+				99AB67F713F0996F004A5E92 /* TrendChart.m in Sources */,
+				99AB67FC13F0997D004A5E92 /* ComplianceChart.m in Sources */,
+				99AB686513F0A7A0004A5E92 /* QuestionObject.m in Sources */,
+				9904051913F0AFA0009C365A /* Question.m in Sources */,
+				9904059013F1A9D6009C365A /* Repeat.m in Sources */,
+				990CA1E514017ABE0023A238 /* DailySchedule.m in Sources */,
+				990CA1EA14017ACC0023A238 /* OnceSchedule.m in Sources */,
+				990CA1EF14017AEA0023A238 /* MonthlySchedule.m in Sources */,
+				990CA1F414017B060023A238 /* YearlySchedule.m in Sources */,
+				990CA1F914017C270023A238 /* WeeklySchedule.m in Sources */,
+				990CA1FD140197A10023A238 /* RepeatObject.m in Sources */,
+				99E0EF7A1402F65B006147B8 /* NSObject+SBJSON.m in Sources */,
+				99E0EF7B1402F65B006147B8 /* NSString+SBJSON.m in Sources */,
+				99E0EF7C1402F65B006147B8 /* SBJsonBase.m in Sources */,
+				99E0EF7D1402F65B006147B8 /* SBJsonParser.m in Sources */,
+				99E0EF7E1402F65B006147B8 /* SBJsonWriter.m in Sources */,
+				99E0EF861402FB4A006147B8 /* ClearDBAppClient.m in Sources */,
+				9922DF431403885900A5D77B /* LoginView.m in Sources */,
+				99BB525B1404515B002E540D /* AlertsNotif.m in Sources */,
+				99C2B0521406D4FB00A64D16 /* RegistrationView.m in Sources */,
+				99C2B05C1407082200A64D16 /* Birth.m in Sources */,
+				99C2B06114070B4E00A64D16 /* Gender.m in Sources */,
+				99C2B06614070B7100A64D16 /* Height.m in Sources */,
+				99C2B06B14070B9700A64D16 /* Weight.m in Sources */,
+				99C2B07014070BBC00A64D16 /* Alcohol.m in Sources */,
+				99C2B07514070BEE00A64D16 /* Tobacco.m in Sources */,
+				997BDE4D14098A00005625D2 /* PasswordRetrieval.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HealthIO_Prefix.pch;
+				INFOPLIST_FILE = "HealthIO-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01 2\"",
+				);
+				PRODUCT_NAME = HealthIO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HealthIO_Prefix.pch;
+				INFOPLIST_FILE = "HealthIO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01 2\"",
+				);
+				PRODUCT_NAME = HealthIO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991C23FC13E0AB0400384EC6 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stex Group";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stex Group";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "7CBCC03B-880B-455C-9E5B-A82801493399";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7CBCC03B-880B-455C-9E5B-A82801493399";
+				SDKROOT = iphoneos;
+			};
+			name = AdHoc;
+		};
+		991C23FD13E0AB0400384EC6 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stex Group";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stex Group";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HealthIO_Prefix.pch;
+				INFOPLIST_FILE = "HealthIO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01 2\"",
+				);
+				PRODUCT_NAME = HealthIO;
+				PROVISIONING_PROFILE = "C3A56C4A-F05E-4799-A598-D2EFD6C95BB3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C3A56C4A-F05E-4799-A598-D2EFD6C95BB3";
+			};
+			name = AdHoc;
+		};
+		993264B313F83E6A008542CD /* AdHoc copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Stex Group";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stex Group";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "BB307BFE-D56B-484E-9926-A1D9FE120700";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB307BFE-D56B-484E-9926-A1D9FE120700";
+				SDKROOT = iphoneos;
+			};
+			name = "AdHoc copy";
+		};
+		993264B413F83E6A008542CD /* AdHoc copy */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HealthIO_Prefix.pch;
+				INFOPLIST_FILE = "HealthIO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01\"",
+					"\"$(SRCROOT)/../../Downloads/cdb_objective-c_client-1.01 2\"",
+				);
+				PRODUCT_NAME = HealthIO;
+			};
+			name = "AdHoc copy";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stex Group";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A4631449-8854-49EF-8627-11F1DB45A82D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HealthIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				991C23FD13E0AB0400384EC6 /* AdHoc */,
+				993264B413F83E6A008542CD /* AdHoc copy */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HealthIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				991C23FC13E0AB0400384EC6 /* AdHoc */,
+				993264B313F83E6A008542CD /* AdHoc copy */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

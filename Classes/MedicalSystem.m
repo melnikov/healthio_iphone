@@ -1,0 +1,214 @@
+//
+//  MedicalSystem.m
+//  HealthIO
+//
+//  Created by Alexei Melnikov on 8/2/11.
+//  Copyright 2011 Stex Group LLC. All rights reserved.
+//
+
+#import "MedicalSystem.h"
+#import "HealthIOAppDelegate.h"
+#import "TreatmentObject.h"
+
+@implementation MedicalSystem
+
+@synthesize table;
+@synthesize editable;
+
+
+//=========================================================== 
+// - (id)initWith:
+//
+//=========================================================== 
+- (id)initWithEditable:(TreatmentObject*)anEditable  
+{
+    self = [super init];
+    if (self) {
+        editable = [anEditable retain];
+    }
+	
+	//	self.tmpName = [NSString stringWithFormat:@"%@",textField.text];
+	//	self.tmpDescription = [NSString stringWithFormat:@"%@",textField.text];
+	
+	/*	table = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+	 [table setDelegate:self];
+	 [table setDataSource:self];
+	 [self.view addSubview:table];*/
+    return self;
+}
+
+
+
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+/*
+ - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+ self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+ if (self) {
+ // Custom initialization.
+ }
+ return self;
+ }
+ */
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	
+	//	UIBarButtonItem *doneButton = [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(didClickDoneButton:)];
+	
+	//[[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone action:@selector(didClickDoneButton:)];
+	//[doneButton setTitle: @"Save"];
+	//[self.navigationItem setRightBarButtonItem:doneButton];
+	//[doneButton release];
+}
+
+
+/*
+ // Override to allow orientations other than the default portrait orientation.
+ - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+ // Return YES for supported orientations.
+ return (interfaceOrientation == UIInterfaceOrientationPortrait);
+ }
+ */
+
+#pragma mark Table functions
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+	HealthIOAppDelegate * delegate;
+	
+	switch (section) {
+		case 0:
+			
+			delegate = (HealthIOAppDelegate *)[[UIApplication sharedApplication]delegate];
+			return [delegate.medicalTypes count];
+			break;
+			
+		default:
+			break;
+	}
+	return 1;
+}
+
+// Customize the appearance of table view cells.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	HealthIOAppDelegate * delegate;
+	delegate = (HealthIOAppDelegate *)[[UIApplication sharedApplication]delegate];
+    static NSString *CellIdentifier = @"TreatmentMedicalCell";
+	
+	
+	
+	UITableViewCell * cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	//TextField * tf = [[UITextField alloc]initWithFrame:CGRectMake(25, 10, 280, 20)];
+	//tf.delegate = self;
+	//tf addTarget:self action:@selector(textFieldDidChangeEditing:) forControlEvents:UIControlEventEditingChanged];
+	
+	if (!cell) 
+	{
+	cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+	}
+	
+	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+	
+	
+	
+	switch (indexPath.section) {
+		case 0:
+			
+			[cell.textLabel setText:[NSString stringWithFormat:@"%@",[delegate.medicalTypes objectAtIndex:indexPath.row]]];
+			if (editable.medicalSystem == indexPath.row)
+				[cell setAccessoryType:UITableViewCellAccessoryCheckmark];
+			else {
+				[cell setAccessoryType:UITableViewCellAccessoryNone];
+			}
+			
+			break;
+		default:
+			break;
+	}
+	
+	
+	
+	//[cell addSubview:tf];
+	
+	//IndicationsObject * cellObject = [[datasource objectAtIndex:indexPath.row]retain];
+	//[cell setData:cellObject];
+	
+	
+	
+    // Configure the cell...
+    
+    return cell;
+}
+
+- (void)textFieldDidChangeEditing:(UITextField *)textField{
+	switch (textField.tag) {
+		case 0:
+			editable.strengthValue = [NSString stringWithFormat:@"%@",textField.text];
+			break;
+		default:
+			break;
+	}
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+	switch (section) {
+		case 0:
+			return @"Medical System";
+			
+			break;
+
+		default:
+			break;
+	}
+}
+
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+	if (indexPath.section==0){
+		editable.medicalSystem = indexPath.row;
+		[table reloadData];
+	}
+}
+
+
+
+-(IBAction) didClickDoneButton:(id)sender{
+	
+//	editable.name = [NSString stringWithFormat:@"%@",self.tmpName];
+//	editable.description = [NSString stringWithFormat:@"%@",self.tmpDescription];
+	
+	
+}
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc. that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+	
+ //   [tmpName release];
+//    tmpName = nil;
+ //   [tmpDescription release];
+//    tmpDescription = nil;
+	
+    [super dealloc];
+}
+
+
+@end

@@ -1,0 +1,26 @@
+/** ***************************************************************************
+ * The Official ClearDB Objective-C API App Client.
+ * ----------------------------------------------------------------------------
+ * Copyright (c) 2010 SuccessBricks, Inc. All rights reserved.
+ * 
+ * Use of this software and source code is subject to the ClearDB Terms of
+ * Service / Acceptable Use Policy, available at
+ * http://www.cleardb.com/legal/terms_of_service.html as well as the
+ * ClearDB Website Terms of Use, at
+ * http://www.cleardb.com/legal/terms_of_use.html.
+ *
+ * THIS SOFTWARE, INCLUDING THE INFORMATION THEREIN IS PROVIDED "AS IS".
+ * SUCCESSBRICKS, INC. DISCLAIMS ALL EXPRESS OR IMPLIED CONDITIONS,
+ * REPRESENTATIONS, AND WARRANTIES OF ANY KIND, INCLUDING ANY IMPLIED
+ * WARRANTY OR CONDITION OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS
+ * FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT.
+ * ----------------------------------------------------------------------------
+ * @see http://www.cleardb.com/v1/doc/appQuery
+ * @see http://www.cleardb.com/v1/doc/sendAppTransaction
+ * @version 1.0
+ * @author Cashton Coleman
+ * ****************************************************************************/
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

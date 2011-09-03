@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'HealthIO' target in the 'HealthIO' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+//clear db
+#define __APP_ID @"75da3799f73fefd792878edeeaab99b2"
+#define __APP_KEY @"0261d80eb8a87724fdccca700d9bd01472ad6dcd"
+
+
+#define indications_type 0
+#define treatments_type 1
+
+#define __version @"1.05"

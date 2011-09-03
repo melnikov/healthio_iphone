@@ -1,0 +1,2013 @@
+THealthIO
+v7
+r0
+t334277484.166782
+cCheck dependencies
+cProcessInfoPlistFile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Info.plist HealthIO-Info.plist
+cCompileXIB /Users/melnikov/Projects/HealthIO/MainWindow.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Analysis.png Analysis.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Analysis@2x.png Analysis@2x.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication.png Medical_Indication.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication@2x.png Medical_Indication@2x.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment.png Medical_Treatment.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment@2x.png Medical_Treatment@2x.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Provider.png Provider.png
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/Provider@2x.png Provider@2x.png
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Rating.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Severity.xib
+cCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio.db healthio.db
+cProcessPCH /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch.gch HealthIO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o /Users/melnikov/Projects/HealthIO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentsView.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersView.o /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AnalysisView.o /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableView.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsObject.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableCell.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsEditTableView.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentObject.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileObject.o /Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileEditTableView.o /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameDescription.o /Users/melnikov/Projects/HealthIO/Classes/NameDescription.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/StartEnd.o /Users/melnikov/Projects/HealthIO/Classes/StartEnd.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentEditTable.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TypeStrength.o /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/MedicalSystem.o /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderObject.o /Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersTableCell.o /Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderEditTable.o /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameSpecialty.o /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/CityAffiliation.o /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneFaxEmail.o /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Rating.o /Users/melnikov/Projects/HealthIO/Classes/Rating.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Severity.o /Users/melnikov/Projects/HealthIO/Classes/Severity.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO normal i386
+cGenerateDSYMFile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app.dSYM /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO
+cTouch /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/Users/melnikov/Projects/HealthIO/Analysis.png
+c000000004E3A8BCA000000000000014E
+t1312459722
+s334
+
+N/Users/melnikov/Projects/HealthIO/Analysis@2x.png
+c000000004E3A8BA6000000000000025A
+t1312459686
+s602
+
+N/Users/melnikov/Projects/HealthIO/Classes/AlcoholTobacco.h
+c000000004E40574000000000000000E0
+t1312839488
+s224
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/AlcoholTobacco.m
+c000000004E40574000000000000005A0
+t1312839488
+s1440
+i"AlcoholTobacco.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/AlcoholTobacco.xib
+c000000004E4057400000000000001865
+t1312839488
+s6245
+
+N/Users/melnikov/Projects/HealthIO/Classes/Alerts.h
+c000000004E40574800000000000000D0
+t1312839496
+s208
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Alerts.m
+c000000004E4057480000000000000588
+t1312839496
+s1416
+i"Alerts.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Alerts.xib
+c000000004E405748000000000000184D
+t1312839496
+s6221
+
+N/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.h
+c000000004E407D880000000000000130
+t1312849288
+s304
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m
+c000000004E407DE100000000000024CC
+t1312849377
+s9420
+i"AnalysisView.h"
+i"ProfileEditTableView.h"
+i"TrendChart.h"
+i"ComplianceChart.h"
+i"HealthIOAppDelegate.h"
+i"QuestionObject.h"
+i"Question.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib
+c000000004E407D9000000000000048FE
+t1312849296
+s18686
+
+N/Users/melnikov/Projects/HealthIO/Classes/Autocomplete.h
+c000000004C889CD70000000000000177
+t1284021463
+s375
+i<Foundation/Foundation.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Autocomplete.m
+c000000004D8CF4FC0000000000000CBC
+t1301083388
+s3260
+i"Autocomplete.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/BirthGender.h
+c000000004E40572100000000000000DA
+t1312839457
+s218
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/BirthGender.m
+c000000004E4057210000000000000597
+t1312839457
+s1431
+i"BirthGender.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/BirthGender.xib
+c000000004E405721000000000000185C
+t1312839457
+s6236
+
+N/Users/melnikov/Projects/HealthIO/Classes/City.h
+c000000004E40571200000000000000CC
+t1312839442
+s204
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/City.m
+c000000004E4057120000000000000582
+t1312839442
+s1410
+i"City.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/City.xib
+c000000004E4057120000000000001847
+t1312839442
+s6215
+
+N/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.h
+c000000004E3EE44F00000000000003AD
+t1312744527
+s941
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m
+c000000004E3EE44F0000000000001E7A
+t1312744527
+s7802
+i"CityAffiliation.h"
+i"ProviderObject.h"
+i"HealthIOAppDelegate.h"
+i"Autocomplete.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib
+c000000004E3C46DE0000000000001868
+t1312573150
+s6248
+
+N/Users/melnikov/Projects/HealthIO/Classes/ComplianceChart.h
+c000000004E4061FD00000000000000E2
+t1312842237
+s226
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ComplianceChart.m
+c000000004E406DB70000000000000AB2
+t1312845239
+s2738
+i"ComplianceChart.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ComplianceChart.xib
+c000000004E406C6B0000000000005D64
+t1312844907
+s23908
+
+N/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.h
+c000000004E42ECE6000000000000087B
+t1313008870
+s2171
+i<UIKit/UIKit.h>
+i"sqlite3.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m
+c000000004E42F99F0000000000023AFB
+t1313012127
+s146171
+i"HealthIOAppDelegate.h"
+i"IndicationsObject.h"
+i"TreatmentObject.h"
+i"ProviderObject.h"
+i"QuestionObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/HeightWeight.h
+c000000004E40573100000000000000DC
+t1312839473
+s220
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/HeightWeight.m
+c000000004E405731000000000000059A
+t1312839473
+s1434
+i"HeightWeight.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/HeightWeight.xib
+c000000004E405731000000000000185F
+t1312839473
+s6239
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.h
+c000000004E3C722F0000000000000292
+t1312584239
+s658
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m
+c000000004E42E16C0000000000003C0E
+t1313005932
+s15374
+i"IndicationsEditTableView.h"
+i"IndicationsObject.h"
+i"NameDescription.h"
+i"StartEnd.h"
+i"Severity.h"
+i"HealthIOAppDelegate.h"
+i"Repeat.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib
+c000000004E30163B0000000000004F02
+t1311774267
+s20226
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.h
+c000000004E41712700000000000004A6
+t1312911655
+s1190
+i<Foundation/Foundation.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m
+c000000004E41782E00000000000005AE
+t1312913454
+s1454
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.h
+c000000004E42E32D000000000000026E
+t1313006381
+s622
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m
+c000000004E42E45A0000000000000F2B
+t1313006682
+s3883
+i"IndicationsTableCell.h"
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.h
+c000000004E2FF4380000000000000204
+t1311765560
+s516
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m
+c000000004E3C43FC0000000000002306
+t1312572412
+s8966
+i"IndicationsTableView.h"
+i"IndicationsObject.h"
+i"HealthIOAppDelegate.h"
+i"IndicationsTableCell.h"
+i"IndicationsEditTableView.h"
+i"ProfileEditTableView.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib
+c000000004E2FFA4E000000000000498F
+t1311767118
+s18831
+
+N/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.h
+c000000004E3823B8000000000000021F
+t1312302008
+s543
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m
+c000000004E38267600000000000014FE
+t1312302710
+s5374
+i"MedicalSystem.h"
+i"HealthIOAppDelegate.h"
+i"TreatmentObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib
+c000000004E38268B0000000000004F37
+t1312302731
+s20279
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameDescription.h
+c000000004E37CC9900000000000002C4
+t1312279705
+s708
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m
+c000000004E37F8720000000000001413
+t1312290930
+s5139
+i"NameDescription.h"
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib
+c000000004E37BC920000000000001868
+t1312275602
+s6248
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.h
+c000000004E3C49C20000000000000277
+t1312573890
+s631
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m
+c000000004E4054940000000000001597
+t1312838804
+s5527
+i"NameSpecialty.h"
+i"HealthIOAppDelegate.h"
+i"ProviderObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib
+c000000004E3C49FF00000000000054AB
+t1312573951
+s21675
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneEmail.h
+c000000004E40570700000000000000D8
+t1312839431
+s216
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneEmail.m
+c000000004E4057070000000000000594
+t1312839431
+s1428
+i"PhoneEmail.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneEmail.xib
+c000000004E4057070000000000001859
+t1312839431
+s6233
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.h
+c000000004E3C4DF500000000000002B5
+t1312574965
+s693
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m
+c000000004E3C4EBA00000000000014EA
+t1312575162
+s5354
+i"PhoneFaxEmail.h"
+i"ProviderObject.h"
+i"HealthIOAppDelegate.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib
+c000000004E3C46ED0000000000001862
+t1312573165
+s6242
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.h
+c000000004E383E6100000000000001D4
+t1312308833
+s468
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m
+c000000004E4072FE00000000000021E0
+t1312846590
+s8672
+i"ProfileEditTableView.h"
+i"ProfileObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib
+c000000004E383F4C000000000000619A
+t1312309068
+s24986
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProfileObject.h
+c000000004E30618700000000000004BF
+t1311793543
+s1215
+i<Foundation/Foundation.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m
+c000000004E306624000000000000054A
+t1311794724
+s1354
+i"ProfileObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.h
+c000000004E3C736B0000000000000244
+t1312584555
+s580
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m
+c000000004E4055BF0000000000003401
+t1312839103
+s13313
+i"ProviderEditTable.h"
+i"ProviderObject.h"
+i"HealthIOAppDelegate.h"
+i"NameSpecialty.h"
+i"CityAffiliation.h"
+i"PhoneFaxEmail.h"
+i"Rating.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib
+c000000004E3C3E3B000000000000497D
+t1312570939
+s18813
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProviderObject.h
+c000000004E404E6C000000000000054F
+t1312837228
+s1359
+i<Foundation/Foundation.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m
+c000000004E40543A000000000000071C
+t1312838714
+s1820
+i"ProviderObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.h
+c000000004E38342D0000000000000230
+t1312306221
+s560
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m
+c000000004E383B7A00000000000005C1
+t1312308090
+s1473
+i"ProvidersTableCell.h"
+i"ProviderObject.h"
+i"HealthIOAppDelegate.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.h
+c000000004E3829F200000000000000F9
+t1312303602
+s249
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m
+c000000004E3C71370000000000002360
+t1312583991
+s9056
+i"ProvidersView.h"
+i"ProfileEditTableView.h"
+i"HealthIOAppDelegate.h"
+i"ProfileEditTableView.h"
+i"ProviderObject.h"
+i"ProvidersTableCell.h"
+i"ProviderEditTable.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib
+c000000004E2FD41E0000000000001862
+t1311757342
+s6242
+
+N/Users/melnikov/Projects/HealthIO/Classes/Question.h
+c000000004E418DC7000000000000023C
+t1312918983
+s572
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Question.m
+c000000004E418F2E000000000000150A
+t1312919342
+s5386
+i"Question.h"
+i"QuestionObject.h"
+i"HealthIOAppDelegate.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Question.xib
+c000000004E407AFD0000000000005C51
+t1312848637
+s23633
+
+N/Users/melnikov/Projects/HealthIO/Classes/QuestionObject.h
+c000000004E4070D4000000000000038A
+t1312846036
+s906
+i<Foundation/Foundation.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/QuestionObject.m
+c000000004E4070D40000000000000590
+t1312846036
+s1424
+i"QuestionObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Rating.h
+c000000004E3C5C9200000000000002F2
+t1312578706
+s754
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Rating.m
+c000000004E3C60D00000000000001359
+t1312579792
+s4953
+i"Rating.h"
+i"ProviderObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Rating.xib
+c000000004E3C46F7000000000000184D
+t1312573175
+s6221
+
+N/Users/melnikov/Projects/HealthIO/Classes/Repeat.h
+c000000004E4179340000000000000271
+t1312913716
+s625
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Repeat.m
+c000000004E42DB300000000000001607
+t1313004336
+s5639
+i"Repeat.h"
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Repeat.xib
+c000000004E4187DF00000000000065CC
+t1312917471
+s26060
+
+N/Users/melnikov/Projects/HealthIO/Classes/Severity.h
+c000000004E3C56670000000000000302
+t1312577127
+s770
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/Severity.m
+c000000004E3C5BE600000000000014E1
+t1312578534
+s5345
+i"Severity.h"
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/Severity.xib
+c000000004E3C50570000000000001853
+t1312575575
+s6227
+
+N/Users/melnikov/Projects/HealthIO/Classes/StartEnd.h
+c000000004E37D8CC00000000000002CE
+t1312282828
+s718
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m
+c000000004E3EED050000000000001503
+t1312746757
+s5379
+i"StartEnd.h"
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib
+c000000004E3EEACB0000000000004F71
+t1312746187
+s20337
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.h
+c000000004E3C73B50000000000000248
+t1312584629
+s584
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m
+c000000004E42E18A0000000000003E41
+t1313005962
+s15937
+i"TreatmentEditTable.h"
+i"HealthIOAppDelegate.h"
+i"TreatmentObject.h"
+i"NameDescription.h"
+i"StartEnd.h"
+i"TypeStrength.h"
+i"MedicalSystem.h"
+i"Repeat.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib
+c000000004E37FED80000000000004FAF
+t1312292568
+s20399
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.h
+c000000004E3EEE1000000000000002E4
+t1312747024
+s740
+i<Foundation/Foundation.h>
+i"IndicationsObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m
+c000000004E3EEEF9000000000000039E
+t1312747257
+s926
+i"TreatmentObject.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.h
+c000000004E302B4D00000000000001F8
+t1311779661
+s504
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m
+c000000004E42E33E0000000000002385
+t1313006398
+s9093
+i"TreatmentsView.h"
+i"IndicationsObject.h"
+i"HealthIOAppDelegate.h"
+i"IndicationsTableCell.h"
+i"TreatmentEditTable.h"
+i"ProfileEditTableView.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib
+c000000004E2FD40E0000000000001865
+t1311757326
+s6245
+
+N/Users/melnikov/Projects/HealthIO/Classes/TrendChart.h
+c000000004E4061EF00000000000000D8
+t1312842223
+s216
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/TrendChart.m
+c000000004E4069D7000000000000060C
+t1312844247
+s1548
+i"TrendChart.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TrendChart.xib
+c000000004E4069550000000000007172
+t1312844117
+s29042
+
+N/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.h
+c000000004E3822F80000000000000319
+t1312301816
+s793
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m
+c000000004E381E2B0000000000001828
+t1312300587
+s6184
+i"TypeStrength.h"
+i"NameDescription.h"
+i"TreatmentObject.h"
+i"HealthIOAppDelegate.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib
+c000000004E3811B30000000000004F34
+t1312297395
+s20276
+
+N/Users/melnikov/Projects/HealthIO/DB/healthio2.db
+c000000004E403F8C0000000000028000
+t1312833420
+s163840
+
+N/Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch
+c000000004E2FD1E400000000000000B9
+t1311756772
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib
+c000000004E3837960000000000005250
+t1312307094
+s21072
+
+N/Users/melnikov/Projects/HealthIO/MainWindow.xib
+c000000004E3C443A000000000000C470
+t1312572474
+s50288
+
+N/Users/melnikov/Projects/HealthIO/Medical_Indication.png
+c000000004E3A8BAE000000000000013C
+t1312459694
+s316
+
+N/Users/melnikov/Projects/HealthIO/Medical_Indication@2x.png
+c000000004E3A8B4400000000000001DF
+t1312459588
+s479
+
+N/Users/melnikov/Projects/HealthIO/Medical_Treatment.png
+c000000004E3A8BBA0000000000000136
+t1312459706
+s310
+
+N/Users/melnikov/Projects/HealthIO/Medical_Treatment@2x.png
+c000000004E3A8B6A00000000000001F2
+t1312459626
+s498
+
+N/Users/melnikov/Projects/HealthIO/Provider.png
+c000000004E3A8BC4000000000000010A
+t1312459716
+s266
+
+N/Users/melnikov/Projects/HealthIO/Provider@2x.png
+c000000004E3A8B940000000000000149
+t1312459668
+s329
+
+N/Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib
+c000000004E3EEA2800000000000051D2
+t1312746024
+s20946
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app
+t1312584684
+s1156
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app.dSYM
+t1312584684
+s102
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/AlcoholTobacco.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Alerts.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Analysis.png
+t1312462113
+s334
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Analysis@2x.png
+t1312462113
+s602
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/AnalysisView.nib
+t1312311636
+s1088
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/BirthGender.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/City.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/CityAffiliation.nib
+t1312573308
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ComplianceChart.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO
+t1312584683
+s227668
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HeightWeight.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsEditTableView.nib
+t1312232743
+s1219
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsTableCell.nib
+t1312307119
+s2118
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsTableView.nib
+t1312232742
+s997
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Info.plist
+t1312232739
+s650
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/MainWindow.nib
+t1312572564
+s3440
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/MedicalSystem.nib
+t1312302733
+s1219
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication.png
+t1312462113
+s316
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication@2x.png
+t1312462113
+s479
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment.png
+t1312462113
+s310
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment@2x.png
+t1312462113
+s498
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/NameDescription.nib
+t1312276295
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/NameSpecialty.nib
+t1312573957
+s1219
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/PhoneEmail.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/PhoneFaxEmail.nib
+t1312573310
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/PkgInfo
+t1312232739
+s8
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProfileEditTableView.nib
+t1312309070
+s1610
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Provider.png
+t1312462113
+s266
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Provider@2x.png
+t1312462113
+s329
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProviderEditTable.nib
+t1312570952
+s1187
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProvidersTableCell.nib
+t1312308028
+s1953
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProvidersView.nib
+t1312232742
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Question.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Rating.nib
+t1312573310
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Repeat.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Severity.nib
+t1312575628
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/StartEnd.nib
+t1312283958
+s1135
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TreatmentEditTable.nib
+t1312292572
+s1219
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TreatmentsView.nib
+t1312232741
+s764
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TrendChart.nib
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TypeStrength.nib
+t1312297400
+s1219
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio.db
+t1312582661
+s163840
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio2.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio3.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio4.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio5.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio6.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio7.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/healthio8.db
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AlcoholTobacco.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Alerts.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AnalysisView.o
+t1312572566
+s53788
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Autocomplete.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/BirthGender.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/City.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/CityAffiliation.o
+t1312581647
+s60940
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ComplianceChart.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIO.LinkFileList
+c000000004E3C508B0000000000000CA4
+t1312575627
+s3236
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o
+t1312582932
+s103464
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HeightWeight.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsEditTableView.o
+t1312584571
+s68440
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsObject.o
+t1312578205
+s17028
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableCell.o
+t1312578361
+s49404
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableView.o
+t1312584249
+s72644
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/MedicalSystem.o
+t1312581646
+s64836
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameDescription.o
+t1312575549
+s61576
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameSpecialty.o
+t1312581646
+s68064
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneEmail.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneFaxEmail.o
+t1312581647
+s61868
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileEditTableView.o
+t1312583589
+s60424
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileObject.o
+t1312232746
+s20600
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderEditTable.o
+t1312584683
+s74852
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderObject.o
+t1312305348
+s18784
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersTableCell.o
+t1312581646
+s55468
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersView.o
+t1312584570
+s68540
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Question.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/QuestionObject.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Rating.o
+t1312579794
+s62144
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Repeat.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Severity.o
+t1312578539
+s64084
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/StartEnd.o
+t1312575549
+s60872
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentEditTable.o
+t1312584659
+s78124
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentObject.o
+t1312575549
+s12892
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentsView.o
+t1312584631
+s69508
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TrendChart.o
+t2
+s0
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TypeStrength.o
+t1312581646
+s71792
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o
+t1312232745
+s7168
+
+N/Users/melnikov/Projects/HealthIO/healthio.db
+c000000004E3C6B520000000000028000
+t1312582482
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio3.db
+c000000004E404CEF0000000000028000
+t1312836847
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio4.db
+c000000004E4171B60000000000028000
+t1312911798
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio5.db
+c000000004E4188D00000000000028000
+t1312917712
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio6.db
+c000000004E419DDB0000000000028000
+t1312923099
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio7.db
+c000000004E419EC00000000000028000
+t1312923328
+s163840
+
+N/Users/melnikov/Projects/HealthIO/healthio8.db
+c000000004E42E6EE0000000000028000
+t1313007342
+s163840
+
+N/Users/melnikov/Projects/HealthIO/main.m
+c000000004E2FD1E40000000000000166
+t1311756772
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch.gch
+t1312232745
+s15814064
+
+NHealthIO-Info.plist
+c000000004E42F87F00000000000003D8
+t1313011839
+s984
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334277481#334277482#0(0"0(0#1#0"8663772128#0"0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AlcoholTobacco.o /Users/melnikov/Projects/HealthIO/Classes/AlcoholTobacco.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Alerts.o /Users/melnikov/Projects/HealthIO/Classes/Alerts.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AnalysisView.o /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334265365.991552
+e334265366.978191
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AnalysisView.o
+x/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:numberOfRowsInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:55: warning: unused variable 'datasource'
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:72: warning: control reaches end of non-void function
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:98: warning: unused variable 'datasource'
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:didSelectRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:265: warning: unused variable 'datasource'
+lSLF07#2@64"Compile /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m334265365#334265366#0(777"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:numberOfRowsInSection:]':/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:55: warning: unused variable 'datasource'/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:72: warning: control reaches end of non-void function/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:98: warning: unused variable 'datasource'/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m: In function '-[AnalysisView tableView:didSelectRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m:265: warning: unused variable 'datasource'4(22@28"Unused variable 'datasource'334265366#122#99#0(6@56"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m334265343#55#0#55#0#19"unused variable '*'0(22@40"Control reaches end of non-void function334265366#221#111#0(6@56"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m334265343#72#0#72#0#40"control reaches end of non-void function0(22@28"Unused variable 'datasource'334265366#454#99#0(6@56"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m334265343#98#0#98#0#19"unused variable '*'0(22@28"Unused variable 'datasource'334265366#677#100#0(6@56"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m334265343#265#0#265#0#19"unused variable '*'0(0#0#56"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m8618689728#1903"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/AnalysisView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Autocomplete.o /Users/melnikov/Projects/HealthIO/Classes/Autocomplete.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/BirthGender.o /Users/melnikov/Projects/HealthIO/Classes/BirthGender.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/City.o /Users/melnikov/Projects/HealthIO/Classes/City.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/CityAffiliation.o /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274446.694980
+e334274447.190759
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/CityAffiliation.o
+x/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m: In function '-[CityAffiliation tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m:163: warning: control reaches end of non-void function
+lSLF07#2@67"Compile /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m334274446#334274447#0(245"/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m: In function '-[CityAffiliation tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m:163: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334274446#130#115#0(6@59"/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m334267524#163#0#163#0#40"control reaches end of non-void function0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m8616317440#1909"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/CityAffiliation.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ComplianceChart.o /Users/melnikov/Projects/HealthIO/Classes/ComplianceChart.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334275731.738078
+e334275732.673243
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o
+x/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m334275731#334275732#0(0"0(0#0#63"/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m8627467968#1917"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HeightWeight.o /Users/melnikov/Projects/HealthIO/Classes/HeightWeight.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsEditTableView.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277370.184882
+e334277371.782068
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsEditTableView.o
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m: In function '-[IndicationsEditTableView tableView:heightForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:136: warning: control reaches end of non-void function
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m: In function '-[IndicationsEditTableView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:171: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:216: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:220: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:238: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:244: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:245: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@76"Compile /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277370#334277371#0(2091"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m: In function '-[IndicationsEditTableView tableView:heightForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:136: warning: control reaches end of non-void function/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m: In function '-[IndicationsEditTableView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:171: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:216: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:220: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:238: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:244: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m:245: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)7(22@40"Control reaches end of non-void function334277371#148#124#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#136#0#136#0#40"control reaches end of non-void function0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#418#278#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#171#0#171#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#696#278#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#216#0#216#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#974#278#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#220#0#220#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#1252#278#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#238#0#238#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#1530#278#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#244#0#244#0#33"'*' is deprecated (declared at *)0(22@199"'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277371#1808#283#0(6@68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m334277324#245#0#245#0#33"'*' is deprecated (declared at *)0(0#0#68"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m8621604960#1927"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsEditTableView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsObject.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334271005.479693
+e334271006.021004
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsObject.o
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m334271005#334271006#0(0"0(0#0#61"/Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m8618426784#1913"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/IndicationsObject.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsObject.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableCell.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334271160.817141
+e334271161.770583
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableCell.o
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m334271160#334271161#0(0"0(0#0#64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m8616881984#1919"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableCell.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableCell.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableView.o /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277043.919845
+e334277049.801624
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableView.o
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:numberOfRowsInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:94: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:137: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView didPressAddButton:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:218: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:didSelectRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:292: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+lSLF07#2@72"Compile /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m334277043#334277049#0(1239"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:numberOfRowsInSection:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:94: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:137: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView didPressAddButton:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:218: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m: In function '-[IndicationsTableView tableView:didSelectRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m:292: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol4(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277046#138#174#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m334265212#94#0#94#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277046#450#175#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m334265212#137#0#137#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277047#749#175#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m334265212#218#0#218#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277047#1064#175#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m334265212#292#0#292#0#45"type '*' does not conform to the '*' protocol0(0#0#64"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m8627378624#1919"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/IndicationsTableView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/MedicalSystem.o /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274445.672796
+e334274446.055121
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/MedicalSystem.o
+x/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m: In function '-[MedicalSystem tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m:168: warning: control reaches end of non-void function
+lSLF07#2@65"Compile /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m334274445#334274446#0(239"/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m: In function '-[MedicalSystem tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m:168: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334274445#126#113#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m333995510#168#0#168#0#40"control reaches end of non-void function0(0#0#57"/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m8633166144#1905"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/MedicalSystem.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameDescription.o /Users/melnikov/Projects/HealthIO/Classes/NameDescription.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334268348.927707
+e334268349.436615
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameDescription.o
+x/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m: In function '-[NameDescription tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m:161: warning: control reaches end of non-void function
+lSLF07#2@67"Compile /Users/melnikov/Projects/HealthIO/Classes/NameDescription.m334268348#334268349#0(245"/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m: In function '-[NameDescription tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m:161: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334268349#130#115#0(6@59"/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m333983730#161#0#161#0#40"control reaches end of non-void function0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/NameDescription.m8619101376#1909"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/NameDescription.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameDescription.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameSpecialty.o /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274446.398517
+e334274446.914695
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameSpecialty.o
+x/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m: In function '-[NameSpecialty tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m:178: warning: control reaches end of non-void function
+lSLF07#2@65"Compile /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m334274446#334274447#0(239"/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m: In function '-[NameSpecialty tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m:178: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334274446#126#113#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m334267031#178#0#178#0#40"control reaches end of non-void function0(0#0#57"/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m8633345664#1905"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/NameSpecialty.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneEmail.o /Users/melnikov/Projects/HealthIO/Classes/PhoneEmail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneFaxEmail.o /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274446.914801
+e334274447.336222
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneFaxEmail.o
+x/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m: In function '-[PhoneFaxEmail tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m:179: warning: control reaches end of non-void function
+lSLF07#2@65"Compile /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m334274446#334274447#0(239"/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m: In function '-[PhoneFaxEmail tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m:179: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334274447#126#113#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m334267962#179#0#179#0#40"control reaches end of non-void function0(0#0#57"/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m8620173184#1905"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/PhoneFaxEmail.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileEditTableView.o /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334276388.277412
+e334276389.058982
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileEditTableView.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m: In function '-[ProfileEditTableView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:89: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:108: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:134: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:142: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:150: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@72"Compile /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276388#334276389#0(1781"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m: In function '-[ProfileEditTableView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:89: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:108: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:126: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:134: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:142: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m:150: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)6(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#138#273#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#89#0#89#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#411#274#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#108#0#108#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#685#274#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#126#0#126#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#959#274#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#134#0#134#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#1233#274#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#142#0#142#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334276388#1507#274#0(6@64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m334276386#150#0#150#0#33"'*' is deprecated (declared at *)0(0#0#64"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m8620121952#1919"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileEditTableView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileObject.o /Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333925546.674515
+e333925546.820393
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileObject.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m333925546#333925546#0(0"0(0#0#57"/Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m8604457280#1905"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProfileObject.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProfileObject.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderEditTable.o /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277482.666406
+e334277483.301287
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderEditTable.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m: In function '-[ProviderEditTable tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m:238: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m:239: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@69"Compile /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m334277482#334277483#0(679"/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m: In function '-[ProviderEditTable tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m:238: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m:239: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)2(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277482#132#271#0(6@61"/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m334277480#238#0#238#0#33"'*' is deprecated (declared at *)0(22@199"'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277482#403#276#0(6@61"/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m334277480#239#0#239#0#33"'*' is deprecated (declared at *)0(0#0#61"/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m8625393728#1913"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderEditTable.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderObject.o /Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333998148.785091
+e333998148.913165
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderObject.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m333998148#333998148#0(0"0(0#0#58"/Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m8601536032#1907"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProviderObject.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProviderObject.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersTableCell.o /Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274446.055349
+e334274446.398380
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersTableCell.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m334274446#334274446#0(0"0(0#0#62"/Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m8628491104#1915"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProvidersTableCell.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersTableCell.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersView.o /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277370.138539
+e334277370.610519
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersView.o
+x/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:numberOfRowsInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:80: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:123: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView didPressAddButton:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:204: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:didSelectRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:280: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+lSLF07#2@65"Compile /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m334277370#334277370#0(1155"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:numberOfRowsInSection:]':/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:80: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:123: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView didPressAddButton:]':/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:204: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m: In function '-[ProvidersView tableView:didSelectRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m:280: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol4(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277370#124#167#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m334276791#80#0#80#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277370#415#168#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m334276791#123#0#123#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277370#693#168#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m334276791#204#0#204#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277370#987#168#0(6@57"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m334276791#280#0#280#0#45"type '*' does not conform to the '*' protocol0(0#0#57"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m8616548384#1905"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/ProvidersView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Question.o /Users/melnikov/Projects/HealthIO/Classes/Question.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/QuestionObject.o /Users/melnikov/Projects/HealthIO/Classes/QuestionObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Rating.o /Users/melnikov/Projects/HealthIO/Classes/Rating.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334272593.713125
+e334272594.377579
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Rating.o
+x/Users/melnikov/Projects/HealthIO/Classes/Rating.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/Rating.m: In function '-[Rating tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/Rating.m:162: warning: control reaches end of non-void function
+lSLF07#2@58"Compile /Users/melnikov/Projects/HealthIO/Classes/Rating.m334272593#334272594#0(218"/Users/melnikov/Projects/HealthIO/Classes/Rating.m: In function '-[Rating tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/Rating.m:162: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334272594#112#106#0(6@50"/Users/melnikov/Projects/HealthIO/Classes/Rating.m334272592#162#0#162#0#40"control reaches end of non-void function0(0#0#50"/Users/melnikov/Projects/HealthIO/Classes/Rating.m8619818624#1891"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/Rating.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Rating.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Repeat.o /Users/melnikov/Projects/HealthIO/Classes/Repeat.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Severity.o /Users/melnikov/Projects/HealthIO/Classes/Severity.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334271338.423794
+e334271339.095491
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Severity.o
+x/Users/melnikov/Projects/HealthIO/Classes/Severity.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/Severity.m: In function '-[Severity tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/Severity.m:169: warning: control reaches end of non-void function
+lSLF07#2@60"Compile /Users/melnikov/Projects/HealthIO/Classes/Severity.m334271338#334271339#0(224"/Users/melnikov/Projects/HealthIO/Classes/Severity.m: In function '-[Severity tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/Severity.m:169: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334271338#116#108#0(6@52"/Users/melnikov/Projects/HealthIO/Classes/Severity.m334271334#169#0#169#0#40"control reaches end of non-void function0(0#0#52"/Users/melnikov/Projects/HealthIO/Classes/Severity.m8615718528#1895"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/Severity.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/Severity.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/StartEnd.o /Users/melnikov/Projects/HealthIO/Classes/StartEnd.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334268349.243818
+e334268349.775415
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/StartEnd.o
+x/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m: In function '-[StartEnd tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m:153: warning: control reaches end of non-void function
+lSLF07#2@60"Compile /Users/melnikov/Projects/HealthIO/Classes/StartEnd.m334268349#334268349#0(224"/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m: In function '-[StartEnd tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m:153: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334268349#116#108#0(6@52"/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m333983822#153#0#153#0#40"control reaches end of non-void function0(0#0#52"/Users/melnikov/Projects/HealthIO/Classes/StartEnd.m8619903584#1895"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/StartEnd.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/StartEnd.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentEditTable.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277458.708864
+e334277459.982173
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentEditTable.o
+x/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m: In function '-[TreatmentEditTable tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:175: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:196: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:218: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:237: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:241: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:259: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:266: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:267: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@70"Compile /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277458#334277459#0(2315"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m: In function '-[TreatmentEditTable tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:175: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:196: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:218: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:237: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:241: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:259: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:266: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m:267: warning: 'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)8(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#134#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#175#0#175#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#406#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#196#0#196#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#678#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#218#0#218#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#950#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#237#0#237#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#1222#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#241#0#241#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#1494#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#259#0#259#0#33"'*' is deprecated (declared at *)0(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#1766#272#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#266#0#266#0#33"'*' is deprecated (declared at *)0(22@199"'setTextColor:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)334277459#2038#277#0(6@62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m334277457#267#0#267#0#33"'*' is deprecated (declared at *)0(0#0#62"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m8616957824#1915"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentEditTable.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentObject.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334268348.878144
+e334268349.243501
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentObject.o
+x/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m334268348#334268349#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m8619658688#1909"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentObject.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentsView.o /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334277430.417595
+e334277431.604055
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentsView.o
+x/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:numberOfRowsInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:73: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:cellForRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:116: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView didPressAddButton:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:198: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:didSelectRowAtIndexPath:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:272: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: At top level:
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header1' requires method '-header1' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header1' requires the method 'setHeader1:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header2' requires method '-header2' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header2' requires the method 'setHeader2:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header3' requires method '-header3' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header3' requires the method 'setHeader3:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@66"Compile /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334277430#334277431#0(2438"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:numberOfRowsInSection:]':/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:73: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:cellForRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:116: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView didPressAddButton:]':/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:198: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: In function '-[TreatmentsView tableView:didSelectRowAtIndexPath:]':/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:272: warning: type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m: At top level:/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header1' requires method '-header1' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header1' requires the method 'setHeader1:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header2' requires method '-header2' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header2' requires the method 'setHeader2:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header3' requires method '-header3' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m:358: warning: property 'header3' requires the method 'setHeader3:' to be defined - use @synthesize, @dynamic or provide a method implementation11(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277430#126#168#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#73#0#73#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277430#420#169#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#116#0#116#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277430#701#169#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#198#0#198#0#45"type '*' does not conform to the '*' protocol0(22@95"Type 'id <UIApplicationDelegate>' does not conform to the 'UITabBarControllerDelegate' protocol334277431#998#169#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#272#0#272#0#45"type '*' does not conform to the '*' protocol0(23@13"At top level:334277431#1167#74#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#0#0#0#0#0"0(22@122"Property 'header1' requires method '-header1' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#1241#196#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(22@129"Property 'header1' requires the method 'setHeader1:' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#1437#203#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(22@122"Property 'header2' requires method '-header2' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#1640#196#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(22@129"Property 'header2' requires the method 'setHeader2:' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#1836#203#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(22@122"Property 'header3' requires method '-header3' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#2039#196#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(22@129"Property 'header3' requires the method 'setHeader3:' to be defined - use @synthesize, @dynamic or provide a method implementation334277431#2235#203#0(6@58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m334265357#358#0#358#0#0"0(0#0#58"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m8619630784#1907"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TreatmentsView.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TrendChart.o /Users/melnikov/Projects/HealthIO/Classes/TrendChart.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TypeStrength.o /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334274445.439371
+e334274446.083382
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TypeStrength.o
+x/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m: In function '-[TypeStrength tableView:titleForHeaderInSection:]':
+o/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m:191: warning: control reaches end of non-void function
+lSLF07#2@64"Compile /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m334274445#334274446#0(236"/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m: In function '-[TypeStrength tableView:titleForHeaderInSection:]':/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m:191: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function334274445#124#112#0(6@56"/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m333993387#191#0#191#0#40"control reaches end of non-void function0(0#0#56"/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m8633117152#1903"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/TypeStrength.o0#
+
+CCompileC build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o /Users/melnikov/Projects/HealthIO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333925545.660514
+e333925545.729438
+r1
+xCompileC
+xbuild/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o
+x/Users/melnikov/Projects/HealthIO/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/melnikov/Projects/HealthIO/main.m333925545#333925545#0(0"0(0#0#40"/Users/melnikov/Projects/HealthIO/main.m8611112992#1879"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/main.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/AlcoholTobacco.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Alerts.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib
+s334004435.957449
+e334004436.473690
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib
+lSLF07#2@35"CompileXIB Classes/AnalysisView.xib334004435#334004436#0(0"0(0#0#58"/Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib8622700576#568"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/AnalysisView.nib /Users/melnikov/Projects/HealthIO/Classes/AnalysisView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/BirthGender.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/City.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib
+s334266107.074153
+e334266108.865801
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib
+lSLF07#2@38"CompileXIB Classes/CityAffiliation.xib334266107#334266108#0(0"0(0#0#61"/Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib8617160416#574"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/CityAffiliation.nib /Users/melnikov/Projects/HealthIO/Classes/CityAffiliation.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ComplianceChart.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/HeightWeight.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib
+s333925542.943673
+e333925543.584976
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib
+lSLF07#2@47"CompileXIB Classes/IndicationsEditTableView.xib333925542#333925543#0(0"0(0#0#70"/Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib8614252992#592"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsEditTableView.nib /Users/melnikov/Projects/HealthIO/Classes/IndicationsEditTableView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib
+s333925542.158665
+e333925542.943572
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib
+lSLF07#2@43"CompileXIB Classes/IndicationsTableView.xib333925542#333925542#0(0"0(0#0#66"/Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib8604108320#584"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsTableView.nib /Users/melnikov/Projects/HealthIO/Classes/IndicationsTableView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib
+s333995532.517046
+e333995533.062849
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib
+lSLF07#2@36"CompileXIB Classes/MedicalSystem.xib333995532#333995533#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib8617034720#570"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/MedicalSystem.nib /Users/melnikov/Projects/HealthIO/Classes/MedicalSystem.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib
+s333969094.748078
+e333969095.319579
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib
+lSLF07#2@38"CompileXIB Classes/NameDescription.xib333969094#333969095#0(0"0(0#0#61"/Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib32651561161261156#574"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/NameDescription.nib /Users/melnikov/Projects/HealthIO/Classes/NameDescription.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib
+s334266756.078163
+e334266757.730944
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib
+lSLF07#2@36"CompileXIB Classes/NameSpecialty.xib334266756#334266757#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib8616013792#570"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/NameSpecialty.nib /Users/melnikov/Projects/HealthIO/Classes/NameSpecialty.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/PhoneEmail.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib
+s334266108.852474
+e334266110.480767
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib
+lSLF07#2@36"CompileXIB Classes/PhoneFaxEmail.xib334266108#334266110#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib8618709696#570"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/PhoneFaxEmail.nib /Users/melnikov/Projects/HealthIO/Classes/PhoneFaxEmail.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib
+s334001870.100235
+e334001870.665917
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib
+lSLF07#2@43"CompileXIB Classes/ProfileEditTableView.xib334001870#334001870#0(0"0(0#0#66"/Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib8620518208#584"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProfileEditTableView.nib /Users/melnikov/Projects/HealthIO/Classes/ProfileEditTableView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib
+s334263750.926522
+e334263752.133337
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib
+lSLF07#2@40"CompileXIB Classes/ProviderEditTable.xib334263750#334263752#0(0"0(0#0#63"/Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib8617027264#578"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProviderEditTable.nib /Users/melnikov/Projects/HealthIO/Classes/ProviderEditTable.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib
+s333925541.219113
+e333925542.158565
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib
+lSLF07#2@36"CompileXIB Classes/ProvidersView.xib333925541#333925542#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib8611209664#570"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProvidersView.nib /Users/melnikov/Projects/HealthIO/Classes/ProvidersView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Question.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Rating.xib
+s334266108.865896
+e334266110.265769
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/Rating.xib
+lSLF07#2@29"CompileXIB Classes/Rating.xib334266108#334266110#0(0"0(0#0#52"/Users/melnikov/Projects/HealthIO/Classes/Rating.xib8617122784#556"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Rating.nib /Users/melnikov/Projects/HealthIO/Classes/Rating.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Repeat.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/Severity.xib
+s334268427.338302
+e334268428.965708
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/Severity.xib
+lSLF07#2@31"CompileXIB Classes/Severity.xib334268427#334268428#0(0"0(0#0#54"/Users/melnikov/Projects/HealthIO/Classes/Severity.xib8619262400#560"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Severity.nib /Users/melnikov/Projects/HealthIO/Classes/Severity.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib
+s333976757.730457
+e333976758.344562
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib
+lSLF07#2@31"CompileXIB Classes/StartEnd.xib333976757#333976758#0(0"0(0#0#54"/Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib8663865248#560"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/StartEnd.nib /Users/melnikov/Projects/HealthIO/Classes/StartEnd.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib
+s333985372.488934
+e333985373.007224
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib
+lSLF07#2@41"CompileXIB Classes/TreatmentEditTable.xib333985372#333985373#0(0"0(0#0#64"/Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib8660685120#580"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TreatmentEditTable.nib /Users/melnikov/Projects/HealthIO/Classes/TreatmentEditTable.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib
+s333925539.885764
+e333925541.219009
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib
+lSLF07#2@37"CompileXIB Classes/TreatmentsView.xib333925539#333925541#0(0"0(0#0#60"/Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib8613107552#572"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TreatmentsView.nib /Users/melnikov/Projects/HealthIO/Classes/TreatmentsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TrendChart.xib
+r0
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib
+s333990199.580554
+e333990200.129711
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib
+lSLF07#2@35"CompileXIB Classes/TypeStrength.xib333990199#333990200#0(0"0(0#0#58"/Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib8601720320#568"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/TypeStrength.nib /Users/melnikov/Projects/HealthIO/Classes/TypeStrength.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib
+s333999918.834379
+e333999919.386545
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib
+lSLF07#2@35"CompileXIB IndicationsTableCell.xib333999918#333999919#0(0"0(0#0#58"/Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib8621490496#576"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/IndicationsTableCell.nib /Users/melnikov/Projects/HealthIO/IndicationsTableCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/MainWindow.xib
+s334265362.823957
+e334265364.801300
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334265362#334265364#0(0"0(0#0#48"/Users/melnikov/Projects/HealthIO/MainWindow.xib8613755392#556"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/MainWindow.nib /Users/melnikov/Projects/HealthIO/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib
+s334000827.866134
+e334000828.454396
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib
+lSLF07#2@33"CompileXIB ProvidersTableCell.xib334000827#334000828#0(0"0(0#0#56"/Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib8620518208#572"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/ProvidersTableCell.nib /Users/melnikov/Projects/HealthIO/ProvidersTableCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Analysis.png Analysis.png
+s334154913.839644
+e334154913.879456
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Analysis.png
+xAnalysis.png
+lSLF07#2@17"Copy Analysis.png334154913#334154913#0(0"0(0#0#46"/Users/melnikov/Projects/HealthIO/Analysis.png8632311968#456"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Analysis.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Analysis@2x.png Analysis@2x.png
+s334154913.840369
+e334154913.879605
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Analysis@2x.png
+xAnalysis@2x.png
+lSLF07#2@20"Copy Analysis@2x.png334154913#334154913#0(0"0(0#0#49"/Users/melnikov/Projects/HealthIO/Analysis@2x.png8631798848#459"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Analysis@2x.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication.png Medical_Indication.png
+s334154913.841071
+e334154913.881230
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication.png
+xMedical_Indication.png
+lSLF07#2@27"Copy Medical_Indication.png334154913#334154913#0(0"0(0#0#56"/Users/melnikov/Projects/HealthIO/Medical_Indication.png8631335616#466"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Medical_Indication.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication@2x.png Medical_Indication@2x.png
+s334154913.842452
+e334154913.879743
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Medical_Indication@2x.png
+xMedical_Indication@2x.png
+lSLF07#2@30"Copy Medical_Indication@2x.png334154913#334154913#0(0"0(0#0#59"/Users/melnikov/Projects/HealthIO/Medical_Indication@2x.png8631113440#469"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Medical_Indication@2x.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment.png Medical_Treatment.png
+s334154913.846333
+e334154913.880190
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment.png
+xMedical_Treatment.png
+lSLF07#2@26"Copy Medical_Treatment.png334154913#334154913#0(0"0(0#0#55"/Users/melnikov/Projects/HealthIO/Medical_Treatment.png8630760320#465"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Medical_Treatment.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment@2x.png Medical_Treatment@2x.png
+s334154913.847326
+e334154913.879871
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Medical_Treatment@2x.png
+xMedical_Treatment@2x.png
+lSLF07#2@29"Copy Medical_Treatment@2x.png334154913#334154913#0(0"0(0#0#58"/Users/melnikov/Projects/HealthIO/Medical_Treatment@2x.png8638274432#468"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Medical_Treatment@2x.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Provider.png Provider.png
+s334154913.850051
+e334154913.879994
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Provider.png
+xProvider.png
+lSLF07#2@17"Copy Provider.png334154913#334154913#0(0"0(0#0#46"/Users/melnikov/Projects/HealthIO/Provider.png8629035392#456"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Provider.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/Provider@2x.png Provider@2x.png
+s334154913.852532
+e334154913.884685
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/Provider@2x.png
+xProvider@2x.png
+lSLF07#2@20"Copy Provider@2x.png334154913#334154913#0(0"0(0#0#49"/Users/melnikov/Projects/HealthIO/Provider@2x.png8627839072#459"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/Provider@2x.png /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio.db healthio.db
+s334275461.287619
+e334275461.410014
+r1
+xCpResource
+xbuild/AdHoc-iphonesimulator/HealthIO.app/healthio.db
+xhealthio.db
+lSLF07#2@16"Copy healthio.db334275461#334275461#0(0"0(0#0#45"/Users/melnikov/Projects/HealthIO/healthio.db8614720896#455"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/melnikov/Projects/HealthIO/healthio.db /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio2.db DB/healthio2.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio3.db healthio3.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio4.db healthio4.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio5.db healthio5.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio6.db healthio6.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio7.db healthio7.db
+r0
+
+CCpResource build/AdHoc-iphonesimulator/HealthIO.app/healthio8.db healthio8.db
+r0
+
+CGenerateDSYMFile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app.dSYM /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO
+s334277483.698710
+e334277484.114262
+r1
+xGenerateDSYMFile
+x/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app.dSYM
+x/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO
+lSLF07#2@112"GenerateDSYMFile build/AdHoc-iphonesimulator/HealthIO.app.dSYM build/AdHoc-iphonesimulator/HealthIO.app/HealthIO334277483#334277484#0(0"0(0#0#83"/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO8632998592#371"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO -o /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app.dSYM0#
+
+CLd /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO normal i386
+s334277483.301405
+e334277483.698576
+r1
+xLd
+x/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO
+xnormal
+xi386
+lSLF07#2@88"Link /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO334277483#334277483#0(0"0(0#0#0"8663974912#892"    cd /Users/melnikov/Projects/HealthIO    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -filelist /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIO.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/HealthIO0#
+
+CProcessInfoPlistFile /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Info.plist HealthIO-Info.plist
+s333925539.864454
+e333925539.883779
+r1
+xProcessInfoPlistFile
+x/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Info.plist
+xHealthIO-Info.plist
+lSLF07#2@27"Process HealthIO-Info.plist333925539#333925539#0(0"0(0#0#53"/Users/melnikov/Projects/HealthIO/HealthIO-Info.plist8613860192#467"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HealthIO-Info.plist -genpkginfo /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app/Info.plist0#
+
+CProcessPCH /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch.gch HealthIO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333925544.083952
+e333925545.660355
+r1
+xProcessPCH
+x/var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch.gch
+xHealthIO_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HealthIO_Prefix.pch333925544#333925545#0(0"0(0#0#53"/Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch8613376640#1775"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/AdHoc-iphonesimulator/HealthIO.build/DerivedSources -c /Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch -o /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-cbmbgxuuszrchkgobmadxjvazymx/HealthIO_Prefix.pch.gch0#
+
+CTouch /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app
+s334277484.114360
+e334277484.166630
+r1
+xTouch
+x/Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app
+lSLF07#2@80"Touch /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app334277484#334277484#0(0"0(0#0#0"8657816192#269"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/melnikov/Projects/HealthIO/build/AdHoc-iphonesimulator/HealthIO.app0#
+

@@ -1,0 +1,273 @@
+THealthIO
+v7
+r0
+t333449600.594286
+cCheck dependencies
+cProcessInfoPlistFile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/Info.plist HealthIO-Info.plist
+cCompileXIB /Users/melnikov/Projects/HealthIO/MainWindow.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/SecondView.xib
+cCompileXIB /Users/melnikov/Projects/HealthIO/FirstView.xib
+cProcessPCH /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch.gch HealthIO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o /Users/melnikov/Projects/HealthIO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/FirstViewController.o /Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO normal i386
+cGenerateDSYMFile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app.dSYM /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO
+cTouch /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/melnikov/Projects/HealthIO/Classes/FirstViewController.h
+c000000004E2FD1E400000000000000EB
+t1311756772
+s235
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m
+c000000004E2FD1E400000000000005B4
+t1311756772
+s1460
+i"FirstViewController.h"
+
+N/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.h
+c000000004E2FD1E400000000000001DC
+t1311756772
+s476
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m
+c000000004E2FD1E40000000000000C58
+t1311756772
+s3160
+i"HealthIOAppDelegate.h"
+
+N/Users/melnikov/Projects/HealthIO/FirstView.xib
+c000000004E2FD1E400000000000049D2
+t1311756772
+s18898
+
+N/Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch
+c000000004E2FD1E400000000000000B9
+t1311756772
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/melnikov/Projects/HealthIO/MainWindow.xib
+c000000004E2FD1E40000000000006432
+t1311756772
+s25650
+
+N/Users/melnikov/Projects/HealthIO/SecondView.xib
+c000000004E2FD1E400000000000049D0
+t1311756772
+s18896
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app
+t1311756800
+s272
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app.dSYM
+t1311756800
+s102
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/FirstView.nib
+t1311756798
+s2923
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO
+t1311756800
+s17064
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/Info.plist
+t1311756797
+s595
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/MainWindow.nib
+t1311756798
+s3054
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/PkgInfo
+t1311756797
+s8
+
+N/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/SecondView.nib
+t1311756798
+s2920
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/FirstViewController.o
+t1311756800
+s37892
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIO.LinkFileList
+c000000004E2FD1FD0000000000000183
+t1311756797
+s387
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o
+t1311756800
+s54808
+
+N/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o
+t1311756800
+s6300
+
+N/Users/melnikov/Projects/HealthIO/main.m
+c000000004E2FD1E40000000000000166
+t1311756772
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch.gch
+t1311756799
+s15814064
+
+NHealthIO-Info.plist
+c000000004E2FD1E4000000000000038D
+t1311756772
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333449597#333449597#0(0"0(0#1#0"8601635168#0"0#
+
+CCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/FirstViewController.o /Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333449600.144681
+e333449600.243386
+r1
+xCompileC
+xbuild/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/FirstViewController.o
+x/Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m333449600#333449600#0(0"0(0#0#63"/Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m8602116160#1917"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/FirstViewController.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333449600.015049
+e333449600.202148
+r1
+xCompileC
+xbuild/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o
+x/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m333449600#333449600#0(0"0(0#0#63"/Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m8606334368#1917"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/Classes/HealthIOAppDelegate.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIOAppDelegate.o0#
+
+CCompileC build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o /Users/melnikov/Projects/HealthIO/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333449600.013940
+e333449600.143817
+r1
+xCompileC
+xbuild/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o
+x/Users/melnikov/Projects/HealthIO/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/melnikov/Projects/HealthIO/main.m333449600#333449600#0(0"0(0#0#40"/Users/melnikov/Projects/HealthIO/main.m8606589472#1879"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources -include /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch -c /Users/melnikov/Projects/HealthIO/main.m -o /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/FirstView.xib
+s333449598.270241
+e333449598.934512
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib333449598#333449598#0(0"0(0#0#47"/Users/melnikov/Projects/HealthIO/FirstView.xib8603855744#554"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/FirstView.nib /Users/melnikov/Projects/HealthIO/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/MainWindow.xib
+s333449597.671410
+e333449598.270148
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333449597#333449598#0(0"0(0#0#48"/Users/melnikov/Projects/HealthIO/MainWindow.xib8606263872#556"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/MainWindow.nib /Users/melnikov/Projects/HealthIO/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/melnikov/Projects/HealthIO/SecondView.xib
+s333449597.682577
+e333449598.517214
+r1
+xCompileXIB
+x/Users/melnikov/Projects/HealthIO/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib333449597#333449598#0(0"0(0#0#48"/Users/melnikov/Projects/HealthIO/SecondView.xib8606173472#556"    cd /Users/melnikov/Projects/HealthIO    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/SecondView.nib /Users/melnikov/Projects/HealthIO/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app.dSYM /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO
+s333449600.510561
+e333449600.566447
+r1
+xGenerateDSYMFile
+x/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app.dSYM
+x/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/HealthIO.app.dSYM build/Debug-iphonesimulator/HealthIO.app/HealthIO333449600#333449600#0(0"0(0#0#83"/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO8606786784#371"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO -o /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app.dSYM0#
+
+CLd /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO normal i386
+s333449600.243486
+e333449600.510443
+r1
+xLd
+x/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO
+xnormal
+xi386
+lSLF07#2@88"Link /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO333449600#333449600#0(0"0(0#0#0"8608191712#880"    cd /Users/melnikov/Projects/HealthIO    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -F/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -filelist /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/Objects-normal/i386/HealthIO.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/HealthIO0#
+
+CProcessInfoPlistFile /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/Info.plist HealthIO-Info.plist
+s333449597.614840
+e333449597.671306
+r1
+xProcessInfoPlistFile
+x/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/Info.plist
+xHealthIO-Info.plist
+lSLF07#2@27"Process HealthIO-Info.plist333449597#333449597#0(0"0(0#0#53"/Users/melnikov/Projects/HealthIO/HealthIO-Info.plist30681223440564324#467"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HealthIO-Info.plist -genpkginfo /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app/Info.plist0#
+
+CProcessPCH /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch.gch HealthIO_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333449598.934643
+e333449600.013786
+r1
+xProcessPCH
+x/var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch.gch
+xHealthIO_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile HealthIO_Prefix.pch333449598#333449600#0(0"0(0#0#53"/Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch8607487840#1775"    cd /Users/melnikov/Projects/HealthIO    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-generated-files.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-own-target-headers.hmap -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-all-target-headers.hmap -iquote /Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/HealthIO-project-headers.hmap -F/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator -I/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/include -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources/i386 -I/Users/melnikov/Projects/HealthIO/build/HealthIO.build/Debug-iphonesimulator/HealthIO.build/DerivedSources -c /Users/melnikov/Projects/HealthIO/HealthIO_Prefix.pch -o /var/folders/-P/-Pssi5K4HJGBUUjtESpuP++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HealthIO_Prefix-dsuqkcizayfaengfuaysdbssvrsa/HealthIO_Prefix.pch.gch0#
+
+CTouch /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app
+s333449600.566539
+e333449600.594228
+r1
+xTouch
+x/Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app
+lSLF07#2@80"Touch /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app333449600#333449600#0(0"0(0#0#0"8606483200#269"    cd /Users/melnikov/Projects/HealthIO    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/melnikov/Projects/HealthIO/build/Debug-iphonesimulator/HealthIO.app0#
+

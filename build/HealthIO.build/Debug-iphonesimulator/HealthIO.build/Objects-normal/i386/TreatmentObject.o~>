@@ -1,0 +1,3 @@
+/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m:14: error: no declaration of property 'treatmentType' found in the interface
+/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m:15: error: no declaration of property 'strengthValue' found in the interface
+/Users/melnikov/Projects/HealthIO/Classes/TreatmentObject.m:16: error: no declaration of property 'medicalSystem' found in the interface

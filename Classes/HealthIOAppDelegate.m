@@ -60,242 +60,332 @@
 	if ([[NSDate date] earlierDate:candidate.endDate] == candidate.endDate)
 		return nil; //event is in the past already
 	
-	if (candidate.repeatType == 0 && ([[NSDate date] earlierDate:candidate.startDate] == candidate.startDate))
+	/*if (candidate.repeatType == 0 && ([[NSDate date] earlierDate:candidate.startDate] == candidate.startDate))
 		return nil; //this was a once-object, and it's start date is in the past
 	
 	if (candidate.repeatType ==0) {
 		
 		return [candidate startDate];
 		
-	}
+	}*/
     
     NSCalendar * cal = [NSCalendar currentCalendar]; 
-    NSDateComponents * comp = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:candidate.startDate];
     
-    NSDateComponents * compEnd = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:candidate.endDate];
+    if (candidate.repeatType == 0) //once
+    //this means that the repeat type set to once, and the first (and only) component
+    //of repeatTimes array is exactly our date. Let's check it
     
-    NSDateComponents * today = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:[NSDate date]];
+    {
+        NSDateComponents * comp = [candidate.repeatTimes objectAtIndex:0];
+        NSDate * onceDate = [cal dateFromComponents:comp];
+    
+        if ([[NSDate date] earlierDate:onceDate] == onceDate)
+            return nil;
+        else
+            return onceDate;
+    }
+    
+    
+    NSDate * earlyDate;
+    
+    NSDateComponents * today = [cal components:(NSWeekdayCalendarUnit| NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:[NSDate date]];
     
     //******************* DAILY
     
-    if (candidate.repeatType ==2) //daily
+    
+    if (candidate.repeatType==2)
     {
-        //let's check, if today's event is already passed
+        //this means that repeatType set to daily, and every component of repeatTimes contains time components only
         
-        if ([today hour]<=[comp hour])
-            if ([today minute]<=[comp minute])
-            {
-                NSDateComponents * tmpComponent = [[NSDateComponents alloc] init];
-                [tmpComponent setYear:[today year]];
-                [tmpComponent setMonth:[today month]];
-                [tmpComponent setDay:[today day]];
-                
-                [tmpComponent setHour:[comp hour]];
-                [tmpComponent setMinute:[comp minute]];
-                NSDate * tmp = [[cal dateFromComponents:tmpComponent]retain];
-                [tmpComponent release];
-                return tmp;
-            }
-        //we didn't hit it today, so let's check if tomorrow's in range
+        // today variable contains components for today. We'll do the following:
         
-        NSDateComponents * oneDay = [[NSDateComponents alloc] init];
-        [oneDay setDay:1];
+        // create an array of date with occurences today and tomorrow, check them against EndDate and will return the earliest
         
-        NSDate * tomorrow = [cal dateByAddingComponents:oneDay toDate:[NSDate date] options:0];
+        NSMutableArray * tempDates = [[NSMutableArray alloc]initWithCapacity:0];
         
-        [oneDay release];
-        
-        NSDateComponents * tomorrowComp = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:tomorrow];
-        //if end date is not set - just return tomorrow value
-        
-        [tomorrowComp setHour:[comp hour]];
-        [tomorrowComp setMinute:[comp minute]];
-        
-        //if end date is set - let's check if we're hitting the end date
-        if (!candidate.endDate)
-            return [[cal dateFromComponents:tomorrowComp] retain];
-        else
-            if ([tomorrowComp year]<=[compEnd year])
-                if ([tomorrowComp month]<=[compEnd month])
-                    if ([tomorrowComp day]<=[compEnd day])
-                    {
-                        return [[cal dateFromComponents:tomorrowComp] retain];
-                    }
-        
-        return nil;
-    }
-    
-    //******************* WEEKLY
-    
-    if (candidate.repeatType ==4) //weekly
-    {
-        //let's find next occurence
-        
-        int dayDifference = [today weekday] - [comp weekday];
-        if (dayDifference<0) dayDifference = 7 - dayDifference;
-        
-        //let's check if it is today; otherwise will add extra 7 days
-        if (dayDifference == 0)
-        {
-            if ([today hour]<=[comp hour]){
-                if ([today minute]>[comp minute])
-                {
-                    dayDifference = 7;
-                }
-            }
-            else
-                dayDifference = 7;
-        }       
-        
-        //let's check if next occurence is in range
-        
-        NSDateComponents * oneDay = [[NSDateComponents alloc] init];
-        [oneDay setDay:dayDifference];
-        
-        NSDate * tomorrow = [cal dateByAddingComponents:oneDay toDate:[NSDate date] options:0];
-        
-        [oneDay release];
-        
-        NSDateComponents * tomorrowComp = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:tomorrow];
-        //if end date is not set - just return tomorrow value
-        
-        [tomorrowComp setHour:[comp hour]];
-        [tomorrowComp setMinute:[comp minute]];
-        
-        //if end date is set - let's check if we're hitting the end date
-        if (!candidate.endDate)
-            return [[cal dateFromComponents:tomorrowComp] retain];
-        else
-            if ([tomorrowComp year]<=[compEnd year])
-                if ([tomorrowComp month]<=[compEnd month])
-                    if ([tomorrowComp day]<=[compEnd day])
-                    {
-                        return [[cal dateFromComponents:tomorrowComp] retain];
-                    }
-        
-        return nil;
-    }
-    
-    
-    
-    //******************* monthly
-    
-    if (candidate.repeatType ==8) //month
-    {
-        //let's find next occurence
-        
-        volatile int monthDifference = 0;
-        
-        if ([today day]<=[comp day]) {
+        for (NSDateComponents * comp in candidate.repeatTimes) {
+            NSDateComponents * tmp = [comp copy];
+            [tmp setDay:[today day]];
+            [tmp setMonth:[today month]];
+            [tmp setYear:[today year]];
             
-            if ([today hour]<=[comp hour]){
-                if ([today minute]>[comp minute])
-                {
-                    monthDifference = 1;
+            NSDate * occurenceToday = [cal dateFromComponents:tmp];
+            NSDate * occurenceTomorrow = [NSDate dateWithTimeInterval:60*60*24 sinceDate:occurenceToday];
+            
+            if (candidate.endDate)
+            {
+                if ([occurenceToday earlierDate:candidate.endDate]==occurenceToday && [occurenceToday laterDate:[NSDate date]]==occurenceToday) {
+                    [tempDates addObject:occurenceToday];
                 }
-            }
-            else
-                monthDifference = 1;
-        }
-        else
-            monthDifference = 1;
-        
-        
-        //let's check if next occurence is in range
-        
-        NSDateComponents * oneDay = [[NSDateComponents alloc] init];
-        [oneDay setMonth:monthDifference];
-        
-        NSDate * tomorrow = [cal dateByAddingComponents:oneDay toDate:[NSDate date] options:0];
-        
-        [oneDay release];
-        
-        NSDateComponents * tomorrowComp = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:tomorrow];
-        //if end date is not set - just return tomorrow value
-        [tomorrowComp setDay:[comp day]];
-        [tomorrowComp setHour:[comp hour]];
-        [tomorrowComp setMinute:[comp minute]];
-        
-        //if end date is set - let's check if we're hitting the end date
-        if (!candidate.endDate)
-            return [[cal dateFromComponents:tomorrowComp] retain];
-        else
-            if ([tomorrowComp year]<=[compEnd year])
-                if ([tomorrowComp month]<=[compEnd month])
-                    if ([tomorrowComp day]<=[compEnd day])
-                    {
-                        return [[cal dateFromComponents:tomorrowComp] retain];
-                    }
-        
-        return nil;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    //******************* yearly
-    
-    if (candidate.repeatType ==16) //year
-    {
-        //let's find next occurence
-        
-        int monthDifference = [today month] - [comp month];
-        if (monthDifference<0) monthDifference = 12 - monthDifference;
-        
-        //let's check if we've hit this month; otherwise will add extra 7 days
-        if (monthDifference == 0)
-        {
-            if ([today day]<=[comp day]) {
                 
-                if ([today hour]<=[comp hour]){
-                    if ([today minute]>[comp minute])
-                    {
-                        monthDifference = 12;
-                    }
+                if ([occurenceTomorrow earlierDate:candidate.endDate]==occurenceTomorrow) {
+                    [tempDates addObject:occurenceTomorrow];
                 }
-                else
-                    monthDifference = 12;
+                
             }
-            else
-                monthDifference = 12;
-        }       
+            else //no end date set
+            {
+                if ([occurenceToday laterDate:[NSDate date]]==occurenceToday) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                    [tempDates addObject:occurenceTomorrow];
+            }
+            
+            
+        }
         
-        //let's check if next occurence is in range
+        //now we have an array with all dates left for today and for tomorrow. Let's find the earliest
         
-        NSDateComponents * oneDay = [[NSDateComponents alloc] init];
-        [oneDay setMonth:monthDifference];
+        if ([tempDates count]==0) return nil;
         
-        NSDate * tomorrow = [cal dateByAddingComponents:oneDay toDate:[NSDate date] options:0];
+        earlyDate = [tempDates objectAtIndex:0];
+        for (int j=1;j<[tempDates count];j++)
+            if ([earlyDate laterDate:[tempDates objectAtIndex:j]] == earlyDate)
+                earlyDate = [tempDates objectAtIndex:j];
         
-        [oneDay release];
+        [tempDates release];
         
-        NSDateComponents * tomorrowComp = [cal components:(NSDayCalendarUnit|NSMonthCalendarUnit|NSYearCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit) fromDate:tomorrow];
-        //if end date is not set - just return tomorrow value
-        [tomorrowComp setDay:[comp day]];
-        [tomorrowComp setHour:[comp hour]];
-        [tomorrowComp setMinute:[comp minute]];
+        return earlyDate;
         
-        //if end date is set - let's check if we're hitting the end date
-        if (!candidate.endDate)
-            return [[cal dateFromComponents:tomorrowComp] retain];
-        else
-            if ([tomorrowComp year]<=[compEnd year])
-                if ([tomorrowComp month]<=[compEnd month])
-                    if ([tomorrowComp day]<=[compEnd day])
-                    {
-                        return [[cal dateFromComponents:tomorrowComp] retain];
-                    }
         
-        return nil;
     }
     
     
-	
+    if (candidate.repeatType == 4) //weekly
+        
+        //let's check if the day today matches; if it is - add today's date to the temp array
+        //also, will check next occurence - check it against end date and add also
+        //then return earliest date, or nil if array is empty
+        
+    {
+    
+        NSMutableArray * tempDates = [[NSMutableArray alloc]initWithCapacity:0];
+        
+        for (NSDateComponents * comp in candidate.repeatTimes) {
+            
+            NSDateComponents * tmp = [comp copy];
+            [tmp setDay:[today day]];
+            int day = [today day];
+            [tmp setMonth:[today month]];
+            int month = [today month];
+            [tmp setYear:[today year]];
+            int year = [today year];
+            int h = [today weekday]-2;
+            if (h<0) h = 7+h;
+            int h1 = [comp weekday];
+            
+           // [tmp setWeekday:[today weekday]];
+            NSDate * occurenceToday = [cal dateFromComponents:tmp];
+            
+            int dayDifference = h1 -h;
+            
+            if (dayDifference <=0) dayDifference = 7+dayDifference;
+            
+            NSDate * occurenceNextWeek = [NSDate dateWithTimeInterval:60*60*24*dayDifference sinceDate:occurenceToday];
+            
+            if (candidate.endDate)
+            {
+                if ([occurenceToday earlierDate:candidate.endDate]==occurenceToday && [occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                if ([occurenceNextWeek earlierDate:candidate.endDate]==occurenceNextWeek) {
+                    [tempDates addObject:occurenceNextWeek];
+                }
+                
+            }
+            else //no end date set
+            {
+                if ([occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                [tempDates addObject:occurenceNextWeek];
+            }
+            
+            
+        }
+        
+        //now we have an array with all dates left for today and for tomorrow. Let's find the earliest
+        
+        if ([tempDates count]==0) return nil;
+        
+        earlyDate = [tempDates objectAtIndex:0];
+        for (int j=1;j<[tempDates count];j++)
+            if ([earlyDate laterDate:[tempDates objectAtIndex:j]] == earlyDate)
+                earlyDate = [tempDates objectAtIndex:j];
+        
+        [tempDates release];
+        
+        return earlyDate;
+    
+    }
+    
+    
+    
+   
+    if (candidate.repeatType == 8)
+    //monthly    
+    {
+        //into array we'll add today's times (if it happens today), and the next months (if next month's dates are below end date)
+        //as usual, will return the earliest
+        NSMutableArray * tempDates = [[NSMutableArray alloc]initWithCapacity:0];
+        
+        for (NSDateComponents * comp in candidate.repeatTimes) {
+            
+            NSDateComponents * tmp = [comp copy];
+            [tmp setDay:[today day]];
+            int day = [today day];
+            [tmp setMonth:[today month]];
+            int month = [today month];
+            [tmp setYear:[today year]];
+            
+            int year = [today year];
+            
+            
+            int h = [today day];
+ 
+            int h1 = [comp day]+1;
+            
+            // [tmp setWeekday:[today weekday]];
+            NSDate * occurenceToday = [cal dateFromComponents:tmp];
+            
+            int dayDifference = h1 -h;
+            
+            NSRange rng = [cal rangeOfUnit:NSDayCalendarUnit inUnit:NSMonthCalendarUnit forDate:[NSDate date]];
+           
+            int thisMonthsDays = rng.length;
+            
+            if (dayDifference <=0) dayDifference = thisMonthsDays - h +h1;
+            
+            NSDate * occurenceNextWeek = [NSDate dateWithTimeInterval:60*60*24*dayDifference sinceDate:occurenceToday];
+            
+            if (candidate.endDate)
+            {
+                if ([occurenceToday earlierDate:candidate.endDate]==occurenceToday && [occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                if ([occurenceNextWeek earlierDate:candidate.endDate]==occurenceNextWeek) {
+                    [tempDates addObject:occurenceNextWeek];
+                }
+                
+            }
+            else //no end date set
+            {
+                if ([occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                [tempDates addObject:occurenceNextWeek];
+            }
+            
+            
+        }
+        
+        //now we have an array with all dates left for today and for tomorrow. Let's find the earliest
+        
+        if ([tempDates count]==0) return nil;
+        
+        earlyDate = [tempDates objectAtIndex:0];
+        for (int j=1;j<[tempDates count];j++)
+            if ([earlyDate laterDate:[tempDates objectAtIndex:j]] == earlyDate)
+                earlyDate = [tempDates objectAtIndex:j];
+        
+        [tempDates release];
+        
+        return earlyDate;
+        
+        
+    
+    }
+    
+    
+    
+    if (candidate.repeatType == 16)
+        //yearly    
+    {
+        //into array we'll add today's times (if it happens today), and the next year's (if next year's dates are below end date)
+        //as usual, will return the earliest
+        NSMutableArray * tempDates = [[NSMutableArray alloc]initWithCapacity:0];
+        
+        for (NSDateComponents * comp in candidate.repeatTimes) {
+            
+            NSDateComponents * tmp = [comp copy];
+            [tmp setDay:[today day]];
+            int day = [today day];
+            [tmp setMonth:[today month]];
+            int month = [today month];
+            [tmp setYear:[today year]];
+            
+            int year = [today year];
+            
+            
+            int h = [today day];
+            
+            int h1 = [comp day]+1;
+            
+            // [tmp setWeekday:[today weekday]];
+            NSDate * occurenceToday = [cal dateFromComponents:tmp];
+            
+            int dayDifference = h1 -h;
+            
+            NSRange rng = [cal rangeOfUnit:NSDayCalendarUnit inUnit:NSYearCalendarUnit forDate:[NSDate date]];
+            
+            int thisYearDays;
+            
+            if (((year+1) % 4 == 0) && ((year+1) % 100 != 0) || ((year+1) % 400 == 0))
+                thisYearDays = 366; // Leap Year
+                else
+                    thisYearDays = 365;
+            
+            
+            
+            if (dayDifference <=0) dayDifference = thisYearDays - h +h1;
+            
+            NSDate * occurenceNextWeek = [NSDate dateWithTimeInterval:60*60*24*dayDifference sinceDate:occurenceToday];
+            
+            if (candidate.endDate)
+            {
+                if ([occurenceToday earlierDate:candidate.endDate]==occurenceToday && [occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                if ([occurenceNextWeek earlierDate:candidate.endDate]==occurenceNextWeek) {
+                    [tempDates addObject:occurenceNextWeek];
+                }
+                
+            }
+            else //no end date set
+            {
+                if ([occurenceToday laterDate:[NSDate date]]==occurenceToday && h1==h) {
+                    [tempDates addObject:occurenceToday];
+                }
+                
+                [tempDates addObject:occurenceNextWeek];
+            }
+            
+            
+        }
+        
+        //now we have an array with all dates left for today and for tomorrow. Let's find the earliest
+        
+        if ([tempDates count]==0) return nil;
+        
+        earlyDate = [tempDates objectAtIndex:0];
+        for (int j=1;j<[tempDates count];j++)
+            if ([earlyDate laterDate:[tempDates objectAtIndex:j]] == earlyDate)
+                earlyDate = [tempDates objectAtIndex:j];
+        
+        [tempDates release];
+        
+        return earlyDate;
+        
+        
+        
+    }
+  
 	return nil; 
 }
 
@@ -306,20 +396,28 @@
         UILocalNotification * ul = [[UILocalNotification alloc] init];
         NSDate * fireDate = [[NSDate alloc]initWithTimeInterval:-15*60 sinceDate:candidateEarliestOccurence];
         
-        [ul setFireDate:candidateEarliestOccurence];
+        NSDate * fireDateMinus15 = [fireDate laterDate:[NSDate date]];
+        
+        [ul setFireDate:fireDateMinus15];
+        
         [fireDate release];
         
         [ul setTimeZone:[NSTimeZone defaultTimeZone]];
         ul.alertBody = [NSString stringWithFormat:@"Next medication: %@",candidate.name];
         
         ul.alertAction = [NSString stringWithFormat:@"View"];
-        
-        
+              
         
         ul.soundName = UILocalNotificationDefaultSoundName;
         
         ul.applicationIconBadgeNumber++;
         
+        [ul setUserInfo:[NSDictionary dictionaryWithObjectsAndKeys:
+                         [NSNumber numberWithInt:candidate.ID], @"id", 
+                         [NSNumber numberWithInt:candidate.section], @"section",
+                         candidate.name, @"name",
+                         candidateEarliestOccurence,@"timeLeft",
+                         nil]];
         
         
         [[UIApplication sharedApplication] scheduleLocalNotification:ul];
@@ -359,13 +457,46 @@
 
 - (void)application:(UIApplication *)app didReceiveLocalNotification:(UILocalNotification *)notif {
     // Handle the notificaton when the app is running
-    UIAlertView * av = [[UIAlertView alloc]initWithTitle:nil message:notif.alertBody delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    
+    NSDictionary * userData = notif.userInfo;
+    
+    NSString * name = [userData valueForKey:@"name"];
+    NSDate * timeLeft = [userData valueForKey:@"timeLeft"];
+    
+    int minutesLeft = [timeLeft timeIntervalSinceNow]/60;
+    lastNotification = [notif retain];
+    if (minutesLeft > 0){
+        lastNotification = [notif retain];
+
+        UIAlertView * av = [[UIAlertView alloc]initWithTitle:nil message:[NSString stringWithFormat:@"%@ in %D minutes", name,minutesLeft] delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Take medication",@"Snooze", nil];
+        
+        
     [av show];
     [av release];
-    
+    }
 }
 
 
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    NSDate * fireDate;
+    NSMutableDictionary * userData;
+    switch (buttonIndex) {
+        case 1: //OK
+          /*  if (lastNotification)
+                [[UIApplication sharedApplication]cancelLocalNotification:lastNotification];*/
+            break;
+        case 2:
+            if (lastNotification){
+                [lastNotification setFireDate:[lastNotification.fireDate dateByAddingTimeInterval:1*60]];
+                
+                [[UIApplication sharedApplication]scheduleLocalNotification:lastNotification];
+                [lastNotification release];
+            }
+        default:
+            break;
+    }
+}
+     
 
 
 -(IndicationsObject *) getNextTreatment{
@@ -379,7 +510,7 @@
     
     [farFuture release];
     
-    [HealthIOAppDelegate getNextOccurence:io];
+  //  [HealthIOAppDelegate getNextOccurence:io];
     
 	if ([treatmentMedication count]>0)
 	{
@@ -438,17 +569,110 @@
     
     
     
+    if ([indicationsConditions count]>0)
+	{
+		//io = [treatmentMedication objectAtIndex:0];
+        //		NSDate * today = [NSDate date];
+        //		NSTimeInterval interval = 100000;
+        
+		
+		for (int i=0; i<[indicationsConditions count]; i++) {
+			IndicationsObject * candidate = [indicationsConditions objectAtIndex:i];
+			NSDate * candidateEarliestOccurence = [HealthIOAppDelegate getNextOccurence:candidate];
+			if (candidateEarliestOccurence)
+                if ([earliestOccurence earlierDate:candidateEarliestOccurence] == candidateEarliestOccurence) {
+                    io = candidate;
+                    earliestOccurence = candidateEarliestOccurence;
+                }
+		}
+	}
+    
+    if ([indicationsSymptoms count]>0)
+	{
+		//io = [treatmentMedication objectAtIndex:0];
+        //		NSDate * today = [NSDate date];
+        //		NSTimeInterval interval = 100000;
+        
+		
+		for (int i=0; i<[indicationsSymptoms count]; i++) {
+			IndicationsObject * candidate = [indicationsSymptoms objectAtIndex:i];
+			NSDate * candidateEarliestOccurence = [HealthIOAppDelegate getNextOccurence:candidate];
+			if (candidateEarliestOccurence)
+                if ([earliestOccurence earlierDate:candidateEarliestOccurence] == candidateEarliestOccurence) {
+                    io = candidate;
+                    earliestOccurence = candidateEarliestOccurence;
+                }
+		}
+	}
+    
+    if ([indicationsTestResults count]>0)
+	{
+		//io = [treatmentMedication objectAtIndex:0];
+        //		NSDate * today = [NSDate date];
+        //		NSTimeInterval interval = 100000;
+        
+		
+		for (int i=0; i<[indicationsTestResults count]; i++) {
+			IndicationsObject * candidate = [indicationsTestResults objectAtIndex:i];
+			NSDate * candidateEarliestOccurence = [HealthIOAppDelegate getNextOccurence:candidate];
+			if (candidateEarliestOccurence)
+                if ([earliestOccurence earlierDate:candidateEarliestOccurence] == candidateEarliestOccurence) {
+                    io = candidate;
+                    earliestOccurence = candidateEarliestOccurence;
+                }
+		}
+	}
+    
+
     
     
-	if (io &&  [HealthIOAppDelegate getNextOccurence:io])
+    
+    
+    
+    NSDate * nextMedication = [HealthIOAppDelegate getNextOccurence:io];
+    
+	if (io &&  nextMedication)
 	{
         NSDateFormatter * df = [[NSDateFormatter alloc]init];
         [df setDateFormat:@"dd MMM yyyy, hh:mm a"];
         
-        NSString * repDate = [df stringFromDate:[HealthIOAppDelegate getNextOccurence:io]];
+        
+        NSTimeInterval timeTillMedication = [nextMedication timeIntervalSinceNow];
+        
+        int years = timeTillMedication / ( 60*60*24*365);
+        
+        int months = (timeTillMedication - years *  60*60*24*365) / ( 60*60*24*30);
+        
+        int days = (timeTillMedication - years *  60*60*24*365 - months * 60*60*24*30) / (60*60*24);
+        
+        int hours = (timeTillMedication - years *  60*60*24*365 - months * 60*60*24*30 -days*60*60*24) / (60*60);
+        
+        int minutes = (timeTillMedication - years *  60*60*24*365 - months * 60*60*24*30 -days*60*60*24 - hours * 60*60) / 60;
+        
+        NSString * intervalMsg=@"";
+        
+        if (years >0 || months > 11)
+            intervalMsg = @"more than a year";
+        
+        if (months >0 && months < 12 && years == 0)
+            intervalMsg = [intervalMsg stringByAppendingFormat:@"more than %d months, ",months];
+        
+        if (days >0 && months ==0 && years==0)
+            intervalMsg = [intervalMsg stringByAppendingFormat:@"%d days, ",days];
+        
+        if (hours >0 &&  days==0 && months ==0 && years==0)
+            intervalMsg = [intervalMsg stringByAppendingFormat:@"%d hours %d minutes ",hours,minutes];
+        
+        if (minutes >0 && hours==0 && days==0 && months ==0 && years==0)
+            intervalMsg = [intervalMsg stringByAppendingFormat:@"%d minutes ",minutes];
+        
+        
+        
+        
+        NSString * repDate = [df stringFromDate:nextMedication];
         [df release];
-        NSString * msg = [NSString stringWithFormat:@"%@\n\n%@",io.name, repDate];
-		UIAlertView * av = [[UIAlertView alloc]initWithTitle:@"Next Medication" message:msg delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        NSString * msg = [NSString stringWithFormat:@"%@\nin %@\n(%@)",io.name, intervalMsg, repDate];
+		UIAlertView * av = [[UIAlertView alloc]initWithTitle:@"Next Medication" message: msg delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
 		[av show];
 		[av release];
 	}
@@ -2905,7 +3129,7 @@
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-	//IndicationsObject * aa = [self getNextTreatment];
+
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
    // [self rescheduleNotifications];
     

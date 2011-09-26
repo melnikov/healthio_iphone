@@ -81,7 +81,7 @@
 			break;
 			
 		case 1:
-			return [delegate.questions count] ;
+			return 0;//[delegate.questions count] ;
 			break;
 		case 2:
 		//	datasource = delegate.providersOthers;

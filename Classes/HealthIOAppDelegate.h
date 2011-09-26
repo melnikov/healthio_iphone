@@ -13,7 +13,7 @@
 @class TreatmentObject;
 @class IndicationsObject;
 @class ProfileObject;
-@interface HealthIOAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+@interface HealthIOAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate,UIAlertViewDelegate> {
     
     int user_id;
     
@@ -35,6 +35,8 @@
 	NSMutableArray * questions;
 	
 	
+    UILocalNotification * lastNotification;
+    
     ClearDBAppClient * client;
     
 	sqlite3 * database;

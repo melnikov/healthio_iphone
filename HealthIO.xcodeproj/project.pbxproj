@@ -110,6 +110,9 @@
 		99C2B07114070BBC00A64D16 /* Alcohol.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B06F14070BB200A64D16 /* Alcohol.xib */; };
 		99C2B07514070BEE00A64D16 /* Tobacco.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C2B07314070BDB00A64D16 /* Tobacco.m */; };
 		99C2B07614070BEE00A64D16 /* Tobacco.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C2B07414070BE200A64D16 /* Tobacco.xib */; };
+		99D9B5FF1413FDDE00265790 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D9B5FC1413FDDE00265790 /* icon.png */; };
+		99D9B6001413FDDE00265790 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D9B5FD1413FDDE00265790 /* icon@2x.png */; };
+		99D9B6011413FDDE00265790 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 99D9B5FE1413FDDE00265790 /* iTunesArtwork */; };
 		99E0EF7A1402F65B006147B8 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF711402F65B006147B8 /* NSObject+SBJSON.m */; };
 		99E0EF7B1402F65B006147B8 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF731402F65B006147B8 /* NSString+SBJSON.m */; };
 		99E0EF7C1402F65B006147B8 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E0EF751402F65B006147B8 /* SBJsonBase.m */; };
@@ -283,6 +286,9 @@
 		99C2B07214070BD400A64D16 /* Tobacco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tobacco.h; sourceTree = "<group>"; };
 		99C2B07314070BDB00A64D16 /* Tobacco.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tobacco.m; sourceTree = "<group>"; };
 		99C2B07414070BE200A64D16 /* Tobacco.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tobacco.xib; sourceTree = "<group>"; };
+		99D9B5FC1413FDDE00265790 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		99D9B5FD1413FDDE00265790 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		99D9B5FE1413FDDE00265790 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		99E0EF6F1402F65B006147B8 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		99E0EF701402F65B006147B8 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		99E0EF711402F65B006147B8 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -382,6 +388,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				99D9B5FC1413FDDE00265790 /* icon.png */,
+				99D9B5FD1413FDDE00265790 /* icon@2x.png */,
+				99D9B5FE1413FDDE00265790 /* iTunesArtwork */,
 				997BDE4F14098C1F005625D2 /* bt_resetpass.png */,
 				9922DF4814038AA500A5D77B /* bt_existingmember.png */,
 				9922DF4914038AA500A5D77B /* bt_newmember.png */,
@@ -808,6 +817,9 @@
 				99C2B07614070BEE00A64D16 /* Tobacco.xib in Resources */,
 				997BDE4E14098A00005625D2 /* PasswordRetrieval.xib in Resources */,
 				997BDE5014098C1F005625D2 /* bt_resetpass.png in Resources */,
+				99D9B5FF1413FDDE00265790 /* icon.png in Resources */,
+				99D9B6001413FDDE00265790 /* icon@2x.png in Resources */,
+				99D9B6011413FDDE00265790 /* iTunesArtwork in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
